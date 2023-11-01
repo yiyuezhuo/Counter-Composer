@@ -1,0 +1,4804 @@
+- name: French Army
+  commander_name: Napoleon
+  strength: 112479
+  guns: 348
+  level: ARMY
+  category: MIXED
+  units:
+  - name: I Corps
+    commander_name: Général du Division Comte Jean-Baptiste Drouet d'Erlon
+    strength: 19357
+    guns: 44
+    level: CORPS
+    category: MIXED
+    units:
+    - name: 1st Infantry Division
+      commander_name: Général de Brigade Baron Joachim Jérôme Quiot du Passage (commanding
+        in the absence of Allix)
+      strength: 4182
+      guns: 0
+      level: DIVISION
+      category: INFANTRY
+      units:
+      - name: 1st Brigade
+        commander_name: Colonel Claude Charlet (acting Commander)
+        strength: 2110
+        guns: 0
+        level: BRIGADE
+        category: INFANTRY
+        units:
+        - name: 1er and 2e Bataillons, 54e Régiment de Ligne
+          commander_name: Colonel Claude Charlet
+          strength: 962
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: 1er and 2e Bataillons, 55e Régiment de Ligne
+          commander_name: Colonel Jean-Pierre Monneret
+          strength: 1148
+          guns: -1
+          level: MISC
+          category: INFANTRY
+      - name: 2nd Brigade
+        commander_name: Général de Brigade Baron Charles-Francois Bourgeois
+        strength: 1881
+        guns: 0
+        level: BRIGADE
+        category: INFANTRY
+        units:
+        - name: 1er and 2e Bataillons, 28e Régiment de Ligne
+          commander_name: Colonel Marc-Antoine-Alexandre de Saint-Michel
+          strength: 898
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: 1er and 2e Bataillons, 105e Régiment de Ligne (lost Eagle)
+          commander_name: Colonel Jean Genty
+          strength: 983
+          guns: -1
+          level: MISC
+          category: INFANTRY
+      - name: Division d'Artillerie
+        commander_name: ''
+        strength: 191
+        guns: 0
+        level: BRIGADE
+        category: ARTILLERY
+        units:
+        - name: 20e Companie 6e d'Artillerie a Pied
+          commander_name: Capitaine Hamelin
+          strength: 85
+          guns: -1
+          level: MISC
+          category: ARTILLERY
+        - name: 5/1er Train Squadron
+          commander_name: ''
+          strength: 106
+          guns: -1
+          level: MISC
+          category: MISC
+    - name: 2nd Division
+      commander_name: Général de Division Baron François-Xavier Donzelot
+      strength: 5315
+      guns: 0
+      level: DIVISION
+      category: INFANTRY
+      units:
+      - name: 1st Brigade
+        commander_name: Général de Brigade Baron Nicolas Schmitz
+        strength: 2930
+        guns: 0
+        level: BRIGADE
+        category: INFANTRY
+        units:
+        - name: 1er, 2e and 3e Bataillons, 13e Régiment de Légère
+          commander_name: Colonel Pierre Gougeon
+          strength: 1875
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: 1er and 2e Bataillons, 17e Régiment de Ligne
+          commander_name: Colonel Chevalier Nicolas-Noel Gueurel
+          strength: 1055
+          guns: -1
+          level: MISC
+          category: INFANTRY
+      - name: 2nd Brigade
+        commander_name: Général de brigade Baron Aulard
+        strength: 2200
+        guns: 0
+        level: BRIGADE
+        category: INFANTRY
+        units:
+        - name: 1er and 2e Bataillons, 19e Régiment de Ligne
+          commander_name: Colonel Jean-Aimable Trupel
+          strength: 1032
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: 1er and 2e Bataillons, 51er Régiment de Ligne
+          commander_name: Colonel Jean-Antoine Rignon
+          strength: 1168
+          guns: -1
+          level: MISC
+          category: INFANTRY
+      - name: Division d'Artillerie
+        commander_name: ''
+        strength: 185
+        guns: 0
+        level: BRIGADE
+        category: ARTILLERY
+        units:
+        - name: 10e Companie 6e d'Artillerie a Pied
+          commander_name: Capitaine Cantin
+          strength: 89
+          guns: -1
+          level: MISC
+          category: ARTILLERY
+        - name: 5/1er Train Squadron
+          commander_name: ''
+          strength: 96
+          guns: -1
+          level: MISC
+          category: MISC
+    - name: 3rd Division
+      commander_name: Général de Division Baron Pierre-Louis Binet de Marcognet
+      strength: 4084
+      guns: 0
+      level: DIVISION
+      category: INFANTRY
+      units:
+      - name: 1st Brigade
+        commander_name: Général de Brigade Antoine Noguès
+        strength: 1928
+        guns: 0
+        level: BRIGADE
+        category: INFANTRY
+        units:
+        - name: 1er and 2e Bataillons, 21e Régiment de Ligne
+          commander_name: Colonel Jean Nicolas Louis Carré Wounded Colonel Nicholas-Placide
+            Ledoux
+          strength: 1040
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: 1er and 2e Bataillons, 46e Régiment de Ligne
+          commander_name: Colonel Louis-Andre Dupre
+          strength: 888
+          guns: -1
+          level: MISC
+          category: INFANTRY
+      - name: 2nd Brigade
+        commander_name: Général de Brigade Baron Jean-George Grenier
+        strength: 1977
+        guns: 0
+        level: BRIGADE
+        category: INFANTRY
+        units:
+        - name: 1er and 2e Bataillons, 25e Régiment de Ligne
+          commander_name: Colonel Jean-Joseph Gromety
+          strength: 974
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: 1er and 2e Bataillons, 45e Régiment de Ligne (lost Eagle)
+          commander_name: Colonel Louis-Guillaume-Joseph Chapuzet
+          strength: 1003
+          guns: -1
+          level: MISC
+          category: INFANTRY
+      - name: Division d'Artillerie
+        commander_name: ''
+        strength: 179
+        guns: 0
+        level: BRIGADE
+        category: ARTILLERY
+        units:
+        - name: 19e Companie 6e d'Artillerie a Pied
+          commander_name: Capitaine Emon
+          strength: 85
+          guns: -1
+          level: MISC
+          category: ARTILLERY
+        - name: 2/1er Train Squadron
+          commander_name: ''
+          strength: 94
+          guns: -1
+          level: MISC
+          category: MISC
+    - name: 4th Division
+      commander_name: Général de Division Comte Pierre François Joseph Durutte
+      strength: 4034
+      guns: 0
+      level: DIVISION
+      category: INFANTRY
+      units:
+      - name: 1st Brigade
+        commander_name: Général de Brigade Chevalier Jean-Gaudens-Claude Pegot
+        strength: 2126
+        guns: 0
+        level: BRIGADE
+        category: INFANTRY
+        units:
+        - name: 1er and 2e Bataillons, 8e Régiment de Ligne
+          commander_name: Colonel Louis-Gabriel Hypolyte Ruelle
+          strength: 980
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: 1er and 2e Bataillons, 29e Régiment de Ligne
+          commander_name: Colonel Etienne-Nicolas Rousselot
+          strength: 1146
+          guns: -1
+          level: MISC
+          category: INFANTRY
+      - name: 2nd Brigade
+        commander_name: Général de Brigade Jean-Louis Brue
+        strength: 1731
+        guns: 0
+        level: BRIGADE
+        category: INFANTRY
+        units:
+        - name: 1er and 2e Bataillons, 85e Régiment de Ligne
+          commander_name: Colonel Andre Pierre Masson
+          strength: 631
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: 1er and 2e Bataillons, 95e Régiment de Ligne
+          commander_name: Colonel Jean-Baptiste Garnier
+          strength: 1100
+          guns: -1
+          level: MISC
+          category: INFANTRY
+      - name: Division d'Artillerie
+        commander_name: ''
+        strength: 177
+        guns: 0
+        level: BRIGADE
+        category: ARTILLERY
+        units:
+        - name: 9e Companie 6e d'Artillerie a Pied
+          commander_name: Capitaine Bourgeois I
+          strength: 84
+          guns: -1
+          level: MISC
+          category: ARTILLERY
+        - name: 3/1er Train Squadron
+          commander_name: ''
+          strength: 93
+          guns: -1
+          level: MISC
+          category: MISC
+    - name: 1st Light Cavalry Division
+      commander_name: Général de Division Baron Charles Claude Jacquinot
+      strength: 1738
+      guns: 0
+      level: DIVISION
+      category: CAVALRY
+      units:
+      - name: 1st Brigade
+        commander_name: Général de Brigade Baron Adrien-Francois de Bruno
+        strength: 801
+        guns: 0
+        level: BRIGADE
+        category: CAVALRY
+        units:
+        - name: 7e Régiment de Hussards
+          commander_name: Colonel Marcellin Marbot
+          strength: 435
+          guns: -1
+          level: MISC
+          category: CAVALRY
+        - name: 3e Régiment de Chasseurs-à-Cheval
+          commander_name: Colonel Anatole-Charles-Alexis de la Woestine
+          strength: 365
+          guns: -1
+          level: MISC
+          category: CAVALRY
+      - name: 2nd Brigade
+        commander_name: Général de Brigade Baron Martin-Alexis Gobrecht
+        strength: 703
+        guns: 0
+        level: BRIGADE
+        category: CAVALRY
+        units:
+        - name: 3e Régiment de Chevaux-légers (Lanciers)
+          commander_name: Colonel Charles-Francois Martique
+          strength: 406
+          guns: -1
+          level: MISC
+          category: CAVALRY
+        - name: 4e Régiment de Chevaux-légers (Lanciers)
+          commander_name: Colonel Louis Bro
+          strength: 296
+          guns: -1
+          level: MISC
+          category: CAVALRY
+        - name: 2e Companie 1er d'Artillerie a Cheval
+          commander_name: Capitaine Bourgeois II
+          strength: 73
+          guns: -1
+          level: MISC
+          category: ARTILLERY
+    - name: I Corps Artillerie Reserve
+      commander_name: Général de Brigade Jean-Charles De Salles
+      strength: 88
+      guns: 0
+      level: DIVISION
+      category: ARTILLERY
+      units:
+      - name: 11e Companie 6e d'Artillerie à Pied
+        commander_name: Captaine Charlet
+        strength: 87
+        guns: -1
+        level: MISC
+        category: ARTILLERY
+  - name: II Corps
+    commander_name: Général de Division Comte Honoré Charles Reille
+    strength: 22731
+    guns: 32
+    level: CORPS
+    category: MIXED
+    units:
+    - name: 5th Division
+      commander_name: Général de Division Baron Gilbert Bachelu
+      strength: 4178
+      guns: 0
+      level: DIVISION
+      category: INFANTRY
+      units:
+      - name: 1st Brigade
+        commander_name: Général de Brigade Baron Pierre-Antoine Husson
+        strength: 1944
+        guns: 0
+        level: BRIGADE
+        category: INFANTRY
+        units:
+        - name: 1er and 2e Bataillons, 2e Régiment de Légère
+          commander_name: Colonel Pierre-Francois Maigrot
+          strength: 2341
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: 1er and 2e Bataillons, 61e Régiment de Ligne
+          commander_name: Colonel Charles Bouge
+          strength: 830
+          guns: -1
+          level: MISC
+          category: INFANTRY
+      - name: 2nd Brigade
+        commander_name: Général de Brigade Baron Toussaint Campi
+        strength: 2043
+        guns: 0
+        level: BRIGADE
+        category: INFANTRY
+        units:
+        - name: 1er and 2e Bataillons, 72e Régiment de Ligne
+          commander_name: Colonel Frederic-Armand Thibault
+          strength: 970
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: 1er, 2e and 3e Bataillons, 108e Régiment de Ligne
+          commander_name: Colonel Philippe Higonet
+          strength: 1073
+          guns: -1
+          level: MISC
+          category: INFANTRY
+      - name: Division d'Artillerie
+        commander_name: ''
+        strength: 191
+        guns: 0
+        level: BRIGADE
+        category: ARTILLERY
+        units:
+        - name: 18e Companie 6e d'Artillerie a Pied
+          commander_name: Capitaine Deshaulles
+          strength: 90
+          guns: -1
+          level: MISC
+          category: ARTILLERY
+        - name: 3/1er Train Squadron
+          commander_name: ''
+          strength: 101
+          guns: -1
+          level: MISC
+          category: MISC
+    - name: 6th Division
+      commander_name: Général de Division Prince Jérôme Bonaparte
+      strength: 7878
+      guns: 0
+      level: DIVISION
+      category: INFANTRY
+      units:
+      - name: 1st Brigade
+        commander_name: Général de Brigade Baron Pierre-Francois Bauduin
+        strength: 4147
+        guns: 0
+        level: BRIGADE
+        category: INFANTRY
+        units:
+        - name: 1er, 2e, and 3e Bataillons, 1ére Régiment de Légère
+          commander_name: Colonel Amédée Despans-Cubières
+          strength: 1853
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: 1er, 2e, 3e, and 4e Bataillons, 3e Régiment de Ligne
+          commander_name: Colonel Hubert Vautrin
+          strength: 943
+          guns: -1
+          level: MISC
+          category: INFANTRY
+      - name: 2nd Brigade
+        commander_name: Général de Brigade Baron Jean-Louis Soye
+        strength: 3531
+        guns: 0
+        level: BRIGADE
+        category: INFANTRY
+        units:
+        - name: 1er, 2e, and 3e Bataillons, 1ére Régiment de Ligne
+          commander_name: Colonel Michel Jacquemet
+          strength: 1766
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: 1er, 2e, and 3e Bataillons, 2e Régiment de Ligne
+          commander_name: Colonel Jean Trippe
+          strength: 1765
+          guns: -1
+          level: MISC
+          category: INFANTRY
+      - name: Division d'Artillerie
+        commander_name: ''
+        strength: 200
+        guns: 0
+        level: BRIGADE
+        category: ARTILLERY
+        units:
+        - name: 2e Companie 2e d'Artillerie a Pied
+          commander_name: Capitaine Meunier
+          strength: 96
+          guns: -1
+          level: MISC
+          category: ARTILLERY
+        - name: 1er Equippage Train Squadron
+          commander_name: ''
+          strength: 104
+          guns: -1
+          level: MISC
+          category: MISC
+    - name: 7th Division
+      commander_name: Général de Division Baron Jean Baptiste Girard
+      strength: 3988
+      guns: 0
+      level: DIVISION
+      category: INFANTRY
+      units:
+      - name: 1st Brigade
+        commander_name: Général de Brigade Vicomte Louis de Villiers
+        strength: 1480
+        guns: 0
+        level: BRIGADE
+        category: INFANTRY
+        units:
+        - name: 1er and 2e Bataillons, 11e Régiment de Légère
+          commander_name: Colonel Vicomte Jean Andre Tibruce Sebastiani
+          strength: 923
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: 1er Bataillon, 82e Régiment de Ligne
+          commander_name: Colonel Jean Francois de Sales Matis
+          strength: 557
+          guns: -1
+          level: MISC
+          category: INFANTRY
+      - name: 2nd Brigade
+        commander_name: Général de Brigade Baron Piat
+        strength: 2328
+        guns: 0
+        level: BRIGADE
+        category: INFANTRY
+        units:
+        - name: 1er, 2e, and 3e Bataillons, 12e Régiment de Légère
+          commander_name: Colonel Joseph Mouttet
+          strength: 1161
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: 1er and 2e Bataillons, 4e Régiment de Ligne
+          commander_name: Colonel Jean-Francios Antoine Michel Faullain
+          strength: 1167
+          guns: -1
+          level: MISC
+          category: INFANTRY
+      - name: Division d'Artillerie
+        commander_name: ''
+        strength: 180
+        guns: 0
+        level: BRIGADE
+        category: ARTILLERY
+        units:
+        - name: 3e Companie 2e d'Artillerie a Pied
+          commander_name: Capitaine Barbaux
+          strength: 77
+          guns: -1
+          level: MISC
+          category: ARTILLERY
+        - name: 1/1er Train Squadron
+          commander_name: ''
+          strength: 59
+          guns: -1
+          level: MISC
+          category: MISC
+        - name: 2/5e Train Squadron
+          commander_name: ''
+          strength: 44
+          guns: -1
+          level: MISC
+          category: MISC
+    - name: 9th Division
+      commander_name: Général de Division Comte Maximilien Sebastien Foy
+      strength: 4845
+      guns: 0
+      level: DIVISION
+      category: INFANTRY
+      units:
+      - name: 1st Brigade
+        commander_name: Général de Brigade Jean-Joseph Gauthier
+        strength: 1961
+        guns: 0
+        level: BRIGADE
+        category: INFANTRY
+        units:
+        - name: 1er and 2e Bataillons, 92e Régiment de Ligne
+          commander_name: Colonel Jean-Marie Tissot
+          strength: 1018
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: 1er and 2e Bataillons, 93e Régiment de Ligne
+          commander_name: Chef de Bataillon Massot
+          strength: 943
+          guns: -1
+          level: MISC
+          category: INFANTRY
+      - name: 2nd Brigade
+        commander_name: Général de Brigade Baron Jean-Baptiste Jamin
+        strength: 2697
+        guns: 0
+        level: BRIGADE
+        category: INFANTRY
+        units:
+        - name: 1er, 2e, and 3e Bataillons, 4e Régiment de Légère
+          commander_name: Colonel Vincent Peyrus
+          strength: 1093
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: 1er, 2e, and 3e Bataillons, 100e Régiment de Ligne
+          commander_name: Colonel Joseph Braun
+          strength: 1604
+          guns: -1
+          level: MISC
+          category: INFANTRY
+      - name: Division d'Artillerie
+        commander_name: ''
+        strength: 187
+        guns: 0
+        level: BRIGADE
+        category: ARTILLERY
+        units:
+        - name: 1er Companie 6e d'Artillerie a Pied
+          commander_name: Capitaine Tacon
+          strength: 88
+          guns: -1
+          level: MISC
+          category: ARTILLERY
+        - name: 3/1er Train Squadron
+          commander_name: ''
+          strength: 99
+          guns: -1
+          level: MISC
+          category: MISC
+    - name: 2nd Cavalry Division
+      commander_name: Général de Division Comte Hippolyte-Marie-Guillaume de Rosnyvinen
+        de Piré
+      strength: 1840
+      guns: 0
+      level: DIVISION
+      category: CAVALRY
+      units:
+      - name: 1st Brigade
+        commander_name: Général de Brigade Baron Pierre Antoine François Huber
+        strength: 1046
+        guns: 0
+        level: BRIGADE
+        category: CAVALRY
+        units:
+        - name: 1er Régiment de Chasseurs-à-Cheval
+          commander_name: Colonel Pierre-Joseph-Victor Simonneau
+          strength: 485
+          guns: -1
+          level: MISC
+          category: CAVALRY
+        - name: 6e Régiment de Chasseurs-à-Cheval
+          commander_name: Colonel Paul-Eugene de Faudoas-Barbazan
+          strength: 560
+          guns: -1
+          level: MISC
+          category: CAVALRY
+      - name: 2nd Brigade
+        commander_name: Général de Brigade Francois-Isidore Wathiez
+        strength: 794
+        guns: 0
+        level: BRIGADE
+        category: CAVALRY
+        units:
+        - name: 5e Régiment de Chevaux-légers (Lanciers)
+          commander_name: Colonel Vicomte Jean-Francois de Ham Jacqueminot
+          strength: 412
+          guns: -1
+          level: MISC
+          category: CAVALRY
+        - name: 6e Régiment de Chevaux-légers (Lanciers)
+          commander_name: Colonel Baron Nicolas-Marie-Mathurin de Galbois
+          strength: 381
+          guns: -1
+          level: MISC
+          category: CAVALRY
+      - name: Division d'Artillerie
+        commander_name: ''
+        strength: 10
+        guns: 0
+        level: BRIGADE
+        category: ARTILLERY
+        units:
+        - name: 2e Companie 4e d'Artillerie a Cheval
+          commander_name: Capitaine Gronnier
+          strength: 4
+          guns: -1
+          level: MISC
+          category: ARTILLERY
+        - name: Reserve d'Artillerie
+          commander_name: Général de Brigade Le Pelletier
+          strength: -1
+          guns: -1
+          level: MISC
+          category: ARTILLERY
+        - name: 7e Companie 4e d'Artillerie a Pied
+          commander_name: ''
+          strength: 6
+          guns: -1
+          level: MISC
+          category: ARTILLERY
+  - name: III Corps
+    commander_name: Général de Division Dominique Vandamme
+    strength: 16806
+    guns: 36
+    level: CORPS
+    category: MIXED
+    units:
+    - name: 8th Division
+      commander_name: Général de Division Baron Etienne-Nicolas Lefol 
+      strength: 4758
+      guns: 0
+      level: DIVISION
+      category: INFANTRY
+      units:
+      - name: 1st Brigade
+        commander_name: Général de Brigade Baron Billiard Killed Colonel Baron Jean-Honore
+          Vernier (Replacement Commander)
+        strength: 2489
+        guns: 0
+        level: BRIGADE
+        category: INFANTRY
+        units:
+        - name: 1er, 2e, and 3e Bataillons, 15e Régiment de Légère
+          commander_name: Colonel Jean-Charles Brice
+          strength: 1701
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: 1er, 2e, and 3e Bataillons, 23e Régiment de Ligne
+          commander_name: Colonel Baron Jean-Honore Vernier
+          strength: 1180
+          guns: -1
+          level: MISC
+          category: INFANTRY
+      - name: 2nd Brigade
+        commander_name: Général de Brigade Baron Andre-Phillipe Corsin
+        strength: 2044
+        guns: 0
+        level: BRIGADE
+        category: INFANTRY
+        units:
+        - name: 1er, 2e and 3e Bataillons, 37e Régiment de Ligne
+          commander_name: Colonel Ferjeux Fortier
+          strength: 1142
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: 1er and 2e Bataillons, 64e Régiment de Ligne
+          commander_name: Colonel Raimond-Martin Dubalen
+          strength: 902
+          guns: -1
+          level: MISC
+          category: INFANTRY
+      - name: Division d'Artillerie
+        commander_name: ''
+        strength: 225
+        guns: 0
+        level: BRIGADE
+        category: ARTILLERY
+        units:
+        - name: 7e Companie 6e d'Artillerie a Pied
+          commander_name: Capitaine Chauveau
+          strength: 87
+          guns: -1
+          level: MISC
+          category: ARTILLERY
+        - name: 1/1er Train Squadron
+          commander_name: ''
+          strength: 12
+          guns: -1
+          level: MISC
+          category: MISC
+        - name: 2e Battalion 2e Régiment du Génie
+          commander_name: ''
+          strength: 115
+          guns: -1
+          level: MISC
+          category: ARTILLERY
+        - name: Ambulance
+          commander_name: ''
+          strength: 11
+          guns: -1
+          level: MISC
+          category: ARTILLERY
+    - name: 10th Division
+      commander_name: Général de Division Baron Pierre-Joseph Habert
+      strength: 5856
+      guns: 0
+      level: DIVISION
+      category: INFANTRY
+      units:
+      - name: 1st Brigade
+        commander_name: Général de Brigade Baron Louis-Thomas Gengoult
+        strength: 2759
+        guns: 0
+        level: BRIGADE
+        category: INFANTRY
+        units:
+        - name: 1er, 2e and 3e Bataillons, 34e Régiment de Ligne
+          commander_name: Colonel Jean-Antoine-Augustin Mouton
+          strength: 1439
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: 1er, 2e and 3e Bataillons, 88e Régiment de Ligne
+          commander_name: Colonel Jacques-Louis Baillon
+          strength: 1320
+          guns: -1
+          level: MISC
+          category: INFANTRY
+      - name: 2nd Brigade
+        commander_name: Général de Brigade Baron Rene-Joseph Dupeyroux
+        strength: 2817
+        guns: 0
+        level: BRIGADE
+        category: INFANTRY
+        units:
+        - name: 1er, 2e and 3e Bataillons, 22e Régiment de Ligne
+          commander_name: Colonel Louis-Florimund Fantin des Odoards
+          strength: 1456
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: 1er and 2e Bataillons, 70e Régiment de Ligne
+          commander_name: Colonel Baron Jean-Pierre Maury
+          strength: 954
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: 2e Régiment d'Infanterie Etranger (Swiss)
+          commander_name: Colonel Augustin-Eugene Staffel
+          strength: 407
+          guns: -1
+          level: MISC
+          category: INFANTRY
+      - name: Division d'Artillerie
+        commander_name: ''
+        strength: 280
+        guns: 0
+        level: BRIGADE
+        category: ARTILLERY
+        units:
+        - name: 18e Companie 2e d'Artillerie a Pied
+          commander_name: Capitaine Guerin
+          strength: 93
+          guns: -1
+          level: MISC
+          category: ARTILLERY
+        - name: 4/5er Train Squadron
+          commander_name: ''
+          strength: 94
+          guns: -1
+          level: MISC
+          category: MISC
+        - name: 1er Battalion 2e Régiment du Génie
+          commander_name: ''
+          strength: 85
+          guns: -1
+          level: MISC
+          category: ARTILLERY
+        - name: Ambulance
+          commander_name: ''
+          strength: 8
+          guns: -1
+          level: MISC
+          category: ARTILLERY
+    - name: 11th Division
+      commander_name: Général de Division Baron Pierre Berthézène
+      strength: 4789
+      guns: 0
+      level: DIVISION
+      category: INFANTRY
+      units:
+      - name: 1st Brigade
+        commander_name: Général de Brigade Baron Francois-Bertrand Dufour
+        strength: 2488
+        guns: 0
+        level: BRIGADE
+        category: INFANTRY
+        units:
+        - name: 1er and 2e Bataillons, 12e Régiment de Ligne
+          commander_name: Colonel Baron Henri-Aloyse-Ignace Beaudinot
+          strength: 1212
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: 1er and 2e Bataillons, 56e Régiment de Ligne
+          commander_name: Colonel Louis-Francois-Joseph Delahaye
+          strength: 1276
+          guns: -1
+          level: MISC
+          category: INFANTRY
+      - name: 2nd Brigade
+        commander_name: Général de Brigade Baron Henri-Jacques-Martin Lagarde
+        strength: 2049
+        guns: 0
+        level: BRIGADE
+        category: INFANTRY
+        units:
+        - name: 1er and 2e Bataillons, 33e Régiment de Ligne
+          commander_name: Colonel Baron Claude-Augustin Maire
+          strength: 1136
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: 1er and 2e Bataillons, 86e Régiment de Ligne
+          commander_name: Colonel Claude-Joseph Pelicier
+          strength: 913
+          guns: -1
+          level: MISC
+          category: INFANTRY
+      - name: Division d'Artillerie
+        commander_name: ''
+        strength: 252
+        guns: 0
+        level: BRIGADE
+        category: ARTILLERY
+        units:
+        - name: 17e Companie 2e d'Artillerie a Pied
+          commander_name: Capitaine Guerin
+          strength: 100
+          guns: -1
+          level: MISC
+          category: ARTILLERY
+        - name: 5/5er Train Squadron
+          commander_name: ''
+          strength: 95
+          guns: -1
+          level: MISC
+          category: MISC
+        - name: 2e Battalion 2e Régiment du Génie
+          commander_name: ''
+          strength: 50
+          guns: -1
+          level: MISC
+          category: ARTILLERY
+        - name: Ambulance
+          commander_name: ''
+          strength: 7
+          guns: -1
+          level: MISC
+          category: ARTILLERY
+    - name: 3rd Cavalry Division
+      commander_name: Général de Division Baron Jean-Siméon Domon
+      strength: 1019
+      guns: 0
+      level: DIVISION
+      category: CAVALRY
+      units:
+      - name: 1st Brigade
+        commander_name: Général de Brigade Baron Jean-Baptiste Dommanget
+        strength: 700
+        guns: 0
+        level: BRIGADE
+        category: CAVALRY
+        units:
+        - name: 4e Régiment de Chasseurs â Cheval
+          commander_name: Colonel Louis-Alexis Desmichels
+          strength: 337
+          guns: -1
+          level: MISC
+          category: CAVALRY
+        - name: 9e Régiment de Chasseurs â Cheval
+          commander_name: Colonel Eugene-Francois d’Avranges Dukermont
+          strength: 362
+          guns: -1
+          level: MISC
+          category: CAVALRY
+      - name: 2nd Brigade
+        commander_name: Général de Brigade Baron Gilbert-Julien Vinot
+        strength: 319
+        guns: 0
+        level: BRIGADE
+        category: CAVALRY
+        units:
+        - name: 12e Régiment de Chasseurs â Cheval
+          commander_name: Colonel Alphonse Frederic Emmanuel de Grouchy
+          strength: 318
+          guns: -1
+          level: MISC
+          category: CAVALRY
+      - name: Division d'Artillerie
+        commander_name: ''
+        strength: 180
+        guns: 0
+        level: BRIGADE
+        category: ARTILLERY
+        units:
+        - name: 4e Companie 2e d'Artillerie a Cheval
+          commander_name: Capitaine Dumont
+          strength: 77
+          guns: -1
+          level: MISC
+          category: ARTILLERY
+        - name: 3/5er Train Squadron
+          commander_name: ''
+          strength: 103
+          guns: -1
+          level: MISC
+          category: MISC
+    - name: III Corps Artillerie de Réserve
+      commander_name: Général de Division Baron Jerome Dougereau
+      strength: 204
+      guns: 0
+      level: DIVISION
+      category: ARTILLERY
+      units:
+      - name: 1ere Companie 2e d'Artillerie a Pied
+        commander_name: Capitaine Vollee
+        strength: 100
+        guns: -1
+        level: MISC
+        category: ARTILLERY
+      - name: 5e Battalion 2e Régiment du Génie
+        commander_name: ''
+        strength: 103
+        guns: -1
+        level: MISC
+        category: ARTILLERY
+  - name: IV Corps
+    commander_name: Général de Division Comte Étienne Maurice Gérard
+    strength: 14874
+    guns: 30
+    level: CORPS
+    category: MIXED
+    units:
+    - name: 12th Division
+      commander_name: Général de Division Baron Marc-Nicolas-Louis Pécheux
+      strength: 4765
+      guns: 0
+      level: DIVISION
+      category: INFANTRY
+      units:
+      - name: 1st Brigade
+        commander_name: Général de Brigade Chevalier Jean-Francois Rome
+        strength: 2337
+        guns: 0
+        level: BRIGADE
+        category: INFANTRY
+        units:
+        - name: 1er, 2e and 3e Bataillons, 30e Régiment de Ligne
+          commander_name: Colonel Adrien Ramand
+          strength: 1112
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: 1er, 2e and 3e Bataillons, 96e Régiment de Ligne
+          commander_name: Colonel Jean Gougeon
+          strength: 1225
+          guns: -1
+          level: MISC
+          category: INFANTRY
+      - name: 2nd Brigade
+        commander_name: Général de Brigade Baron Christian-Henri Schoeffer
+        strength: 2328
+        guns: 0
+        level: BRIGADE
+        category: INFANTRY
+        units:
+        - name: 1er and 3e Bataillons, 6e Régiment de Légère
+          commander_name: Chef de Bataillon Gemeau
+          strength: 1061
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: 1er 2e and 3e Bataillons, 63e Régiment de Ligne
+          commander_name: Colonel Jean Laurède
+          strength: 1267
+          guns: -1
+          level: MISC
+          category: INFANTRY
+      - name: Division d'Artillerie
+        commander_name: ''
+        strength: 100
+        guns: 0
+        level: BRIGADE
+        category: ARTILLERY
+        units:
+        - name: 2e Companie 5e d'Artillerie a Pied
+          commander_name: Capitaine Fenouillat
+          strength: 100
+          guns: -1
+          level: MISC
+          category: ARTILLERY
+    - name: 13th Division
+      commander_name: Général de Division Baron Louis Joseph Vichery
+      strength: 4237
+      guns: 0
+      level: DIVISION
+      category: INFANTRY
+      units:
+      - name: 1st Brigade
+        commander_name: Général de Brigade Baron Jacques le Capitaine
+        strength: 2029
+        guns: 0
+        level: BRIGADE
+        category: INFANTRY
+        units:
+        - name: 1er and 2e Bataillons, 59e Régiment de Ligne
+          commander_name: Colonel Chevalier Frederic-Alexandre Laurain
+          strength: 1046
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: 1er and 2e Bataillons, 76e Régiment de Ligne
+          commander_name: Colonel Victor-Antoine Morice de la Rue
+          strength: 983
+          guns: -1
+          level: MISC
+          category: INFANTRY
+      - name: 2nd Brigade
+        commander_name: Général de Brigade Comte Francois-Alexandre Desprez
+        strength: 1944
+        guns: 0
+        level: BRIGADE
+        category: INFANTRY
+        units:
+        - name: 1er and 2e Bataillons, 48e Régiment de Ligne
+          commander_name: Colonel Olivier-Antoine-Constantin Peraldi
+          strength: 877
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: 1er and 2e Bataillons, 69e Régiment de Ligne
+          commander_name: Colonel Christophe Hervé
+          strength: 1067
+          guns: -1
+          level: MISC
+          category: INFANTRY
+      - name: Division d'Artillerie
+        commander_name: ''
+        strength: 264
+        guns: 0
+        level: BRIGADE
+        category: ARTILLERY
+        units:
+        - name: 1er Companie 5e d'Artillerie a Pied
+          commander_name: Capitaine Saint-Cyr
+          strength: 103
+          guns: -1
+          level: MISC
+          category: ARTILLERY
+        - name: 5/5er Train Squadron
+          commander_name: ''
+          strength: 84
+          guns: -1
+          level: MISC
+          category: MISC
+        - name: 5e Battalion 2e Régiment du Génie
+          commander_name: ''
+          strength: 77
+          guns: -1
+          level: MISC
+          category: ARTILLERY
+    - name: 14th Division
+      commander_name: Général de Division Count Louis de Bourmont
+      strength: 4140
+      guns: 0
+      level: DIVISION
+      category: INFANTRY
+      units:
+      - name: 1st Brigade
+        commander_name: Général de Brigade Baron Etienne Hulot de Mazarny
+        strength: 2362
+        guns: 0
+        level: BRIGADE
+        category: INFANTRY
+        units:
+        - name: 1er and 2e Bataillons, 9e Régiment de Légère
+          commander_name: Colonel Paul-Hippolyte-Alexandre Baume
+          strength: 1278
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: 1er, 2e and 3e Bataillons, 111e Régiment de Ligne
+          commander_name: Colonel Louis-Antoine Sausset
+          strength: 1084
+          guns: -1
+          level: MISC
+          category: INFANTRY
+      - name: 2nd Brigade
+        commander_name: Général de Brigade Baron Jean-Francois Toussaint
+        strength: 1778
+        guns: 0
+        level: BRIGADE
+        category: INFANTRY
+        units:
+        - name: 1er and 2e Bataillons, 44e Régiment de Ligne
+          commander_name: Colonel Jean-Dominique Paolini
+          strength: 983
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: 1er and 2e Bataillons, 50e Régiment de Ligne
+          commander_name: Colonel Francois-Marie-Joseph Lavigne
+          strength: 795
+          guns: -1
+          level: MISC
+          category: INFANTRY
+    - name: 6th Cavalry Division
+      commander_name: Général de Division Baron Antoine Maurin
+      strength: 1537
+      guns: 0
+      level: DIVISION
+      category: CAVALRY
+      units:
+      - name: 1st Brigade
+        commander_name: Général de Brigade Baron Louis Vallin
+        strength: 666
+        guns: 0
+        level: BRIGADE
+        category: CAVALRY
+        units:
+        - name: 6e Regiment of Hussards
+          commander_name: Colonel Prince Joseph-Marie de Savoy-Carignan
+          strength: 352
+          guns: -1
+          level: MISC
+          category: CAVALRY
+        - name: 8e Regiment de Chasseurs
+          commander_name: Colonel Pierre-Henri-Joseph Schneit
+          strength: 313
+          guns: -1
+          level: MISC
+          category: CAVALRY
+      - name: 2nd Brigade
+        commander_name: Général de Brigade Chevalier Pierre-Marie-Auguste Berruyer
+        strength: 712
+        guns: 0
+        level: BRIGADE
+        category: CAVALRY
+        units:
+        - name: 6e Regiment de Dragons
+          commander_name: Colonel Claude Mugnier
+          strength: 341
+          guns: -1
+          level: MISC
+          category: CAVALRY
+        - name: 16e Regiment de Dragons
+          commander_name: Chef d'Escadron Louis-Charlemagne Fortin
+          strength: 370
+          guns: -1
+          level: MISC
+          category: CAVALRY
+      - name: Division d'Artillerie
+        commander_name: ''
+        strength: 159
+        guns: 0
+        level: BRIGADE
+        category: ARTILLERY
+        units:
+        - name: 3e Companie 3e d'Artillerie a Cheval
+          commander_name: Capitaine Tortel
+          strength: 78
+          guns: -1
+          level: MISC
+          category: ARTILLERY
+        - name: 2/2e Train Squadron
+          commander_name: ''
+          strength: 81
+          guns: -1
+          level: MISC
+          category: MISC
+    - name: IV Corps Artillerie de Réserve
+      commander_name: General-de-Brigade Basile-Guy-Marie-Victor, Baron Baltus de
+        Pouilly
+      strength: 193
+      guns: 0
+      level: DIVISION
+      category: ARTILLERY
+      units:
+      - name: 5e Companie 5e d'Artillerie a Pied
+        commander_name: Capitaine Lenior
+        strength: 98
+        guns: -1
+        level: MISC
+        category: ARTILLERY
+      - name: 2e Train des Équipages Militaires
+        commander_name: ''
+        strength: 94
+        guns: -1
+        level: MISC
+        category: MISC
+  - name: VI Corps
+    commander_name: Général de Division Georges Mouton, Count de Lobau
+    strength: 9295
+    guns: 32
+    level: CORPS
+    category: INFANTRY
+    units:
+    - name: 19th Division
+      commander_name: Général de Division Baron François Martin Valentin Simmer
+      strength: 4247
+      guns: 0
+      level: DIVISION
+      category: INFANTRY
+      units:
+      - name: 1st Brigade
+        commander_name: Général de Brigade Antoine-Alexandre Julienne de Belair
+        strength: 2148
+        guns: 0
+        level: BRIGADE
+        category: INFANTRY
+        units:
+        - name: 1er and 2e Bataillons, 5e Régiment de Ligne
+          commander_name: Colonel Jean-Isaac Roussille
+          strength: 952
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: 1er, 2e and 3e Bataillons, 11e Régiment de Ligne
+          commander_name: Colonel Alexandre-Charles-Joseph Aubree
+          strength: 1196
+          guns: -1
+          level: MISC
+          category: INFANTRY
+      - name: 2nd Brigade
+        commander_name: Général de Brigade Chevalier Louis-Marie-Joseph Thevenet
+        strength: 1760
+        guns: 0
+        level: BRIGADE
+        category: INFANTRY
+        units:
+        - name: 1er and 2e Bataillons, 27e Régiment de Ligne
+          commander_name: Colonel Pierre-Etienne-Simon Gaudin
+          strength: 821
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: 1er and 2e Bataillons, 84e Régiment de Ligne
+          commander_name: Colonel Pierre-Andre-Remy Chevalier
+          strength: 939
+          guns: -1
+          level: MISC
+          category: INFANTRY
+      - name: Division d'Artillerie
+        commander_name: ''
+        strength: 339
+        guns: 0
+        level: BRIGADE
+        category: ARTILLERY
+        units:
+        - name: 1er Companie 8e d'Artillerie a Pied
+          commander_name: Capitaine Parisot
+          strength: 86
+          guns: -1
+          level: MISC
+          category: ARTILLERY
+        - name: 1/7e Train Squadron
+          commander_name: ''
+          strength: 56
+          guns: -1
+          level: MISC
+          category: MISC
+        - name: 4/8e Train Squadron
+          commander_name: ''
+          strength: 38
+          guns: -1
+          level: MISC
+          category: MISC
+        - name: 1er Companie 1/3e Sapper Battalion
+          commander_name: ''
+          strength: 95
+          guns: -1
+          level: MISC
+          category: ARTILLERY
+        - name: 1/1e Military Equippage Squadron
+          commander_name: ''
+          strength: 12
+          guns: -1
+          level: MISC
+          category: ARTILLERY
+        - name: 3e Companie de l'Aisne d'equipage auxiliairies
+          commander_name: ''
+          strength: 52
+          guns: -1
+          level: MISC
+          category: ARTILLERY
+    - name: 20th Division
+      commander_name: Général de Division Baron Jean-Baptiste Jeanin
+      strength: 2500
+      guns: 0
+      level: DIVISION
+      category: INFANTRY
+      units:
+      - name: 1st Brigade
+        commander_name: Général de Brigade Chevalier Jean-Pierre-Francois Bony
+        strength: 1505
+        guns: 0
+        level: BRIGADE
+        category: INFANTRY
+        units:
+        - name: 1er and 2e Bataillons, 5e Régiment de Légère
+          commander_name: Colonel Francois-Theodore Curnier de Pilvert
+          strength: 876
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: 1er and 2e Bataillons, 10e Régiment de Ligne
+          commander_name: Colonel Jean-Pierre-Francois-Dieudonne Roussel
+          strength: 629
+          guns: -1
+          level: MISC
+          category: INFANTRY
+      - name: 2nd Brigade
+        commander_name: Général de Brigade Comte Jacques-Jean-Marie-Francois Boudin
+          de Tromelin
+        strength: 736
+        guns: 0
+        level: BRIGADE
+        category: INFANTRY
+        units:
+        - name: 1er and 2e Bataillons, 107e Régiment de Ligne
+          commander_name: Colonel Jean Druot
+          strength: 735
+          guns: -1
+          level: MISC
+          category: INFANTRY
+      - name: Division d'Artillerie
+        commander_name: ''
+        strength: 259
+        guns: 0
+        level: BRIGADE
+        category: ARTILLERY
+        units:
+        - name: 2e Companie 8e d'Artillerie a Pied
+          commander_name: Capitaine Paquet
+          strength: 91
+          guns: -1
+          level: MISC
+          category: ARTILLERY
+        - name: 1/7e Train Squadron
+          commander_name: ''
+          strength: 104
+          guns: -1
+          level: MISC
+          category: MISC
+        - name: 1/1e Military Equippage Squadron
+          commander_name: ''
+          strength: 12
+          guns: -1
+          level: MISC
+          category: ARTILLERY
+        - name: 3e Companie de l'Aisne d'eequipage auxiliairies
+          commander_name: ''
+          strength: 52
+          guns: -1
+          level: MISC
+          category: ARTILLERY
+    - name: 21st Division
+      commander_name: Général de Division Baron François Antoine Teste
+      strength: 2548
+      guns: 0
+      level: DIVISION
+      category: INFANTRY
+      units:
+      - name: 1st Brigade
+        commander_name: Général de Brigade Baron Michel-Pascal Lafitte
+        strength: 938
+        guns: 0
+        level: BRIGADE
+        category: INFANTRY
+        units:
+        - name: 1er and 2e Bataillons, 8e Régiment de Légère
+          commander_name: Colonel Jean Ricard
+          strength: 938
+          guns: -1
+          level: MISC
+          category: INFANTRY
+      - name: 2nd Brigade
+        commander_name: Général de Brigade Baron Raymond-Pierre Penne
+        strength: 981
+        guns: 0
+        level: BRIGADE
+        category: INFANTRY
+        units:
+        - name: 1er Bataillon, 65e Régiment de Ligne
+          commander_name: Chef de Bataillon Boumard
+          strength: 503
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: 1er and 2e Bataillons, 75e Régiment de Ligne
+          commander_name: Colonel Pierre Mathivet
+          strength: 981
+          guns: -1
+          level: MISC
+          category: INFANTRY
+      - name: Division d'Artillerie
+        commander_name: ''
+        strength: 333
+        guns: 0
+        level: BRIGADE
+        category: ARTILLERY
+        units:
+        - name: 3e Companie 8e d'Artillerie a Pied
+          commander_name: Capitaine Duverrey
+          strength: 94
+          guns: -1
+          level: MISC
+          category: ARTILLERY
+        - name: 4/6e Train Squadron
+          commander_name: ''
+          strength: 72
+          guns: -1
+          level: MISC
+          category: MISC
+        - name: 3e Companie 1/3e Sapper Battalion
+          commander_name: ''
+          strength: 101
+          guns: -1
+          level: MISC
+          category: ARTILLERY
+        - name: 1/3e Military Equippage Squadron
+          commander_name: ''
+          strength: 14
+          guns: -1
+          level: MISC
+          category: ARTILLERY
+        - name: 4e Companie de l'Aisne d'eequipage auxiliairies
+          commander_name: ''
+          strength: 52
+          guns: -1
+          level: MISC
+          category: ARTILLERY
+    - name: VI Corps Artillerie de Réserve
+      commander_name: Général de Division Baron Henri-Marie Le Noury de la Guignardiere
+      strength: 296
+      guns: 0
+      level: DIVISION
+      category: ARTILLERY
+      units:
+      - name: 4e Companie 8e d'Artillerie a Pied
+        commander_name: Capitaine Chaudon
+        strength: 95
+        guns: -1
+        level: MISC
+        category: ARTILLERY
+      - name: 2e Companie 2e Battalion 3e Régiment du Génie
+        commander_name: Général de Brigade Sabatier
+        strength: 200
+        guns: -1
+        level: MISC
+        category: ARTILLERY
+  - name: I Cavalry Corps (light cavalry)
+    commander_name: Général de Division Claude Pierre Pajol
+    strength: 2667
+    guns: 12
+    level: CORPS
+    category: CAVALRY
+    units:
+    - name: 4th Cavalry Division
+      commander_name: Général de Division Baron Pierre Benoît Soult
+      strength: 1267
+      guns: 0
+      level: DIVISION
+      category: CAVALRY
+      units:
+      - name: 1st Brigade
+        commander_name: Général de Brigade Houssin de St Laurent
+        strength: 776
+        guns: 0
+        level: BRIGADE
+        category: CAVALRY
+        units:
+        - name: 1er Régiment de Hussards
+          commander_name: Colonel Francois-Joseph-Marie Clary
+          strength: 471
+          guns: -1
+          level: MISC
+          category: CAVALRY
+        - name: 4e Régiment de Hussards (St Laurent)
+          commander_name: Colonel Louis-Joseph Blot
+          strength: 304
+          guns: -1
+          level: MISC
+          category: CAVALRY
+      - name: 2nd Brigade
+        commander_name: Général de Brigade Baron Auguste Jean Ameil
+        strength: 418
+        guns: 0
+        level: BRIGADE
+        category: CAVALRY
+        units:
+        - name: 5e Régiment de Hussards
+          commander_name: Colonel Baron Jean-Baptiste Liégeard
+          strength: 417
+          guns: -1
+          level: MISC
+          category: CAVALRY
+      - name: Division Artillerie
+        commander_name: ''
+        strength: 72
+        guns: 0
+        level: BRIGADE
+        category: ARTILLERY
+        units:
+        - name: 1ere Companie 1er d'Artillerie a Cheval
+          commander_name: Capitaine Cothereaux
+          strength: 72
+          guns: -1
+          level: MISC
+          category: ARTILLERY
+    - name: 5th Cavalry Division
+      commander_name: Général de Division Jacques Gervais, baron Subervie
+      strength: 1399
+      guns: 0
+      level: DIVISION
+      category: CAVALRY
+      units:
+      - name: 1st Brigade
+        commander_name: Général de Brigade Comte Louis-Pierre-Alphonse de Colbert
+        strength: 836
+        guns: 0
+        level: BRIGADE
+        category: CAVALRY
+        units:
+        - name: 1er Régiment de Chevaux-légers (Lanciers)
+          commander_name: Colonel Jean-Baptiste Dubessy
+          strength: 415
+          guns: -1
+          level: MISC
+          category: CAVALRY
+        - name: 2e Régiment de Chevaux-légers (Lanciers)
+          commander_name: Colonel Jean Baptiste Joseph Sourd 
+          strength: 420
+          guns: -1
+          level: MISC
+          category: CAVALRY
+      - name: 2nd Brigade
+        commander_name: Général de Brigade Chevalier Antoine Francois Eugene Merlin
+          de Douai
+        strength: 486
+        guns: 0
+        level: BRIGADE
+        category: CAVALRY
+        units:
+        - name: 11e Régiment de Chasseurs-à-Cheval
+          commander_name: Colonel Baron Nicolas
+          strength: -1
+          guns: -1
+          level: MISC
+          category: CAVALRY
+      - name: Division Artillerie
+        commander_name: ''
+        strength: 76
+        guns: 0
+        level: BRIGADE
+        category: ARTILLERY
+        units:
+        - name: 3e Companie 1er d'Artillerie à Cheval
+          commander_name: Capitaine Duchemin
+          strength: 76
+          guns: -1
+          level: MISC
+          category: ARTILLERY
+  - name: II Cavalry Corps (heavy cavalry)
+    commander_name: Rémi Joseph Isidore Exelmans
+    strength: 2849
+    guns: 12
+    level: CORPS
+    category: CAVALRY
+    units:
+    - name: 9th Cavalry Division
+      commander_name: Général de Division Baron Jean Baptiste Alexandre Strolz
+      strength: 1504
+      guns: 0
+      level: DIVISION
+      category: CAVALRY
+      units:
+      - name: 1st Brigade
+        commander_name: Général de Brigade Baron André Burthe
+        strength: 745
+        guns: 0
+        level: BRIGADE
+        category: CAVALRY
+        units:
+        - name: 5e Régiment de Dragons
+          commander_name: Colonel Jean-Baptiste-Antoine Canevas Saint-Amand
+          strength: 370
+          guns: -1
+          level: MISC
+          category: CAVALRY
+        - name: 13e Régiment de Dragons
+          commander_name: Colonel Jean-Baptiste Saviot
+          strength: 374
+          guns: -1
+          level: MISC
+          category: CAVALRY
+      - name: 2nd Brigade
+        commander_name: Général de Brigade Baron Henri Catherine Balthazard Vincent 
+        strength: 688
+        guns: 0
+        level: BRIGADE
+        category: CAVALRY
+        units:
+        - name: 15e Régiment de Dragons
+          commander_name: Colonel Claude-Louis Chaillot
+          strength: 323
+          guns: -1
+          level: MISC
+          category: CAVALRY
+        - name: 20e Régiment de Dragons
+          commander_name: Colonel Armand-Francois-Bon-Claude de Briqueville
+          strength: 364
+          guns: -1
+          level: MISC
+          category: CAVALRY
+      - name: Division Artillerie
+        commander_name: ''
+        strength: 70
+        guns: 0
+        level: BRIGADE
+        category: ARTILLERY
+        units:
+        - name: 4e Companie 1er d'Artillerie à Cheval
+          commander_name: Capitaine Godet
+          strength: 70
+          guns: -1
+          level: MISC
+          category: ARTILLERY
+    - name: 10th Cavalry Division
+      commander_name: Général de Division Baron Louis Pierre Aimé Chastel
+      strength: 1343
+      guns: 0
+      level: DIVISION
+      category: CAVALRY
+      units:
+      - name: 1st Brigade
+        commander_name: Général de Brigade Baron Pierre Bonnemains
+        strength: 616
+        guns: 0
+        level: BRIGADE
+        category: CAVALRY
+        units:
+        - name: 4e Régiment de Dragons
+          commander_name: Colonel Baron Jean-Baptiste Bouquerot des Essarts
+          strength: 272
+          guns: -1
+          level: MISC
+          category: CAVALRY
+        - name: 12e Régiment de Dragons
+          commander_name: Colonel Joachim-Irenee-Francois Bureaux de Pusy
+          strength: 343
+          guns: -1
+          level: MISC
+          category: CAVALRY
+      - name: 2nd Brigade
+        commander_name: Général de Brigade Jean-Baptiste Berton 
+        strength: 664
+        guns: 0
+        level: BRIGADE
+        category: CAVALRY
+        units:
+        - name: 14e Régiment de Dragons
+          commander_name: Colonel Alphonse-Alexandre Seguier
+          strength: 330
+          guns: -1
+          level: MISC
+          category: CAVALRY
+        - name: 17te Régiment de Dragons
+          commander_name: Colonel Louis Labiffe
+          strength: 333
+          guns: -1
+          level: MISC
+          category: CAVALRY
+      - name: Division Artillerie
+        commander_name: Capitaine Bernard
+        strength: 62
+        guns: -1
+        level: BRIGADE
+        category: ARTILLERY
+  - name: III Cavalry Corps
+    commander_name: François Étienne de Kellermann
+    strength: 3702
+    guns: 12
+    level: CORPS
+    category: CAVALRY
+    units:
+    - name: 11th Cavalry Division
+      commander_name: Général de Division Samuel-François Lhéritier
+      strength: 1982
+      guns: 0
+      level: DIVISION
+      category: CAVALRY
+      units:
+      - name: 1st Brigade
+        commander_name: Général de Brigade Cyrille Simon Picquet 
+        strength: 1111
+        guns: 0
+        level: BRIGADE
+        category: CAVALRY
+        units:
+        - name: 2e Régiment de Dragons
+          commander_name: Colonel Planzeaux
+          strength: 593
+          guns: -1
+          level: MISC
+          category: CAVALRY
+        - name: 7e Régiment de Dragons
+          commander_name: Colonel Léopold
+          strength: 517
+          guns: -1
+          level: MISC
+          category: CAVALRY
+      - name: 2nd Brigade
+        commander_name: Général de Brigade Marie Adrien François Guiton 
+        strength: 792
+        guns: 0
+        level: BRIGADE
+        category: CAVALRY
+        units:
+        - name: 8e Régiment de Cuirassiers
+          commander_name: Colonel Garavaque
+          strength: 459
+          guns: -1
+          level: MISC
+          category: CAVALRY
+        - name: 11e Régiment de Cuirassiers
+          commander_name: Colonel Courtier
+          strength: 332
+          guns: -1
+          level: MISC
+          category: CAVALRY
+      - name: Division Artillerie
+        commander_name: ''
+        strength: 78
+        guns: 0
+        level: BRIGADE
+        category: ARTILLERY
+        units:
+        - name: 3e Companie 2e d’Artillerie à Cheval
+          commander_name: Capitaine de Marcillac
+          strength: 78
+          guns: -1
+          level: MISC
+          category: ARTILLERY
+    - name: 12th Cavalry Division
+      commander_name: Général de Division Nicolas Roussel d'Hurbal
+      strength: 1719
+      guns: 0
+      level: DIVISION
+      category: CAVALRY
+      units:
+      - name: 1st Brigade
+        commander_name: Général de Brigade Amable Guy Blanchard
+        strength: 848
+        guns: 0
+        level: BRIGADE
+        category: CAVALRY
+        units:
+        - name: 1er Régiment de Carabiniers
+          commander_name: Colonel Rogé
+          strength: 434
+          guns: -1
+          level: MISC
+          category: CAVALRY
+        - name: 2e Régiment de Carabiniers
+          commander_name: Colonel Beugnat
+          strength: 413
+          guns: -1
+          level: MISC
+          category: CAVALRY
+      - name: 2nd Brigade
+        commander_name: Général de Brigade Frédéric Guillaume de Donop  †
+        strength: 792
+        guns: 0
+        level: BRIGADE
+        category: CAVALRY
+        units:
+        - name: 2e Régiment de Cuirassiers
+          commander_name: Colonel Baron Grandjean
+          strength: 311
+          guns: -1
+          level: MISC
+          category: CAVALRY
+        - name: 3e Régiment de Cuirassiers
+          commander_name: Colonel Jean-Guillaume Lacroix
+          strength: 480
+          guns: -1
+          level: MISC
+          category: CAVALRY
+      - name: Division Artillerie
+        commander_name: ''
+        strength: 78
+        guns: 0
+        level: BRIGADE
+        category: ARTILLERY
+        units:
+        - name: 2e Companie 2e d’Artillerie à Cheval
+          commander_name: Capitaine Lebau
+          strength: 78
+          guns: -1
+          level: MISC
+          category: ARTILLERY
+  - name: IV Cavalry Corps (heavy cavalry)
+    commander_name: Général de Division Comte Édouard Jean Baptiste Milhaud
+    strength: 2982
+    guns: 12
+    level: CORPS
+    category: CAVALRY
+    units:
+    - name: 13th Cavalry Division
+      commander_name: Général de Division Pierre Watier
+      strength: 1318
+      guns: 0
+      level: DIVISION
+      category: CAVALRY
+      units:
+      - name: 1st Brigade
+        commander_name: Général de Brigade Jacques-Charles Dubois
+        strength: 800
+        guns: 0
+        level: BRIGADE
+        category: CAVALRY
+        units:
+        - name: 1er Régiment de Cuirassiers
+          commander_name: Colonel Comte Ordener
+          strength: 485
+          guns: -1
+          level: MISC
+          category: CAVALRY
+        - name: 4e Regiment de Cuirassiers
+          commander_name: Colonel Habert
+          strength: 314
+          guns: -1
+          level: MISC
+          category: CAVALRY
+      - name: 2nd Brigade
+        commander_name: Général de Brigade Étienne Jacques Travers
+        strength: 439
+        guns: 0
+        level: BRIGADE
+        category: CAVALRY
+        units:
+        - name: 7e Régiment de Cuirassiers
+          commander_name: Colonel Richardot
+          strength: 180
+          guns: -1
+          level: MISC
+          category: CAVALRY
+        - name: 12e Régiment de Cuirassiers
+          commander_name: Colonel Thurot
+          strength: 258
+          guns: -1
+          level: MISC
+          category: CAVALRY
+      - name: Division Artillerie
+        commander_name: ''
+        strength: 78
+        guns: 0
+        level: BRIGADE
+        category: ARTILLERY
+        units:
+        - name: 5e Companie 1er d’Artillerie à Cheval
+          commander_name: Capitaine Duchet
+          strength: 78
+          guns: -1
+          level: MISC
+          category: ARTILLERY
+    - name: 14th Cavalry Division
+      commander_name: Général de Division Jacques-Antoine-Adrien Delort
+      strength: 1663
+      guns: 0
+      level: DIVISION
+      category: CAVALRY
+      units:
+      - name: 1st Brigade
+        commander_name: Général de Brigade Pierre Joseph Farine du Creux
+        strength: 878
+        guns: 0
+        level: BRIGADE
+        category: CAVALRY
+        units:
+        - name: 5e Régiment de Cuirassiers
+          commander_name: Colonel Baron Gobert
+          strength: 518
+          guns: -1
+          level: MISC
+          category: CAVALRY
+        - name: 10e Régiment de Cuirassiers
+          commander_name: Colonel Baron Lahuberdière
+          strength: 359
+          guns: -1
+          level: MISC
+          category: CAVALRY
+      - name: 2nd Brigade
+        commander_name: Général de Brigade Jacques Laurent Louis Augustin Vial
+        strength: 698
+        guns: 0
+        level: BRIGADE
+        category: CAVALRY
+        units:
+        - name: 6e Régiment de Cuirassiers
+          commander_name: Colonel Martin
+          strength: 285
+          guns: -1
+          level: MISC
+          category: CAVALRY
+        - name: 9e Régiment de Cuirassiers
+          commander_name: Colonel Bigarne
+          strength: 412
+          guns: -1
+          level: MISC
+          category: CAVALRY
+      - name: Division Artillerie
+        commander_name: ''
+        strength: 78
+        guns: 0
+        level: BRIGADE
+        category: ARTILLERY
+        units:
+        - name: 4e Companie 3e d’Artillerie à Cheval
+          commander_name: Capitaine Legay
+          strength: 86
+          guns: -1
+          level: MISC
+          category: ARTILLERY
+  - name: Imperial Guard
+    commander_name: Marshal Édouard Adolphe Casimir Joseph Mortier
+    strength: 17216
+    guns: 126
+    level: CORPS
+    category: MIXED
+    units:
+    - name: Grenadier Division
+      commander_name: 'Comte Louis Friant. Deputy: General Roguet.'
+      strength: 4055
+      guns: 0
+      level: DIVISION
+      category: INFANTRY
+      units:
+      - name: 1er and 2e Bataillons, 1er Régiment de Grenadiers (Old Guard)
+        commander_name: Général de Brigade Baron Petit
+        strength: 1280
+        guns: -1
+        level: MISC
+        category: INFANTRY
+      - name: 1er and 2e Bataillons, 2e Régiment de Grenadiers (Old Guard)
+        commander_name: Général de Brigade Baron Christiani
+        strength: 1091
+        guns: -1
+        level: MISC
+        category: INFANTRY
+      - name: 1er and 2e Bataillons, 3e Régiment de Grenadiers (Middle Guard)
+        commander_name: Général de Brigade Baron Poret de Morvan
+        strength: 1164
+        guns: -1
+        level: MISC
+        category: INFANTRY
+      - name: 1er Bataillon, 4e Régiment de Grenadiers (Middle Guard)
+        commander_name: Général de Brigade Harlet
+        strength: 520
+        guns: -1
+        level: MISC
+        category: INFANTRY
+    - name: Chasseur Division
+      commander_name: 'Général de Division Morand. Deputy: General Michel.'
+      strength: 4603
+      guns: 0
+      level: DIVISION
+      category: INFANTRY
+      units:
+      - name: 1er and 2e Bataillons, 1er Régiment de Chasseurs (Old Guard)
+        commander_name: Général de Brigade Comte Cambronne
+        strength: 1307
+        guns: -1
+        level: MISC
+        category: INFANTRY
+      - name: 1er and 2e Bataillons, 2e Régiment de Chasseurs (Old Guard)
+        commander_name: Général de Brigade Baron Pelet-Clozeau
+        strength: 1163
+        guns: -1
+        level: MISC
+        category: INFANTRY
+      - name: 1er and 2e Bataillons, 3e Régiment de Chasseurs (Middle Guard)
+        commander_name: Colonel Mallet
+        strength: 1062
+        guns: -1
+        level: MISC
+        category: INFANTRY
+      - name: 1er and 2e Bataillons, 4e Régiment de Chasseurs (Middle Guard)
+        commander_name: Général de Brigade Henrion
+        strength: 1071
+        guns: -1
+        level: MISC
+        category: INFANTRY
+    - name: Young Guard
+      commander_name: 'Général de Division Duhesme. Deputy: General Barrois.'
+      strength: 4283
+      guns: 0
+      level: DIVISION
+      category: INFANTRY
+      units:
+      - name: 1st Brigade
+        commander_name: Général de Brigade Chevalier Chartrand
+        strength: 2328
+        guns: 0
+        level: BRIGADE
+        category: INFANTRY
+        units:
+        - name: 1er and 2e Bataillons, 1er Régiment de Tirailleurs
+          commander_name: Colonel Trappier de Malcolm
+          strength: 1109
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: 1er and 2e Bataillons, 1er Régiment de Voltigeurs
+          commander_name: Colonel Secrétan
+          strength: 1219
+          guns: -1
+          level: MISC
+          category: INFANTRY
+      - name: 2nd Brigade
+        commander_name: Maréchal de Camp Guye
+        strength: 1945
+        guns: 0
+        level: BRIGADE
+        category: INFANTRY
+        units:
+        - name: 1er and 2e Bataillons, 3e Régiment de Tirailleurs
+          commander_name: Colonel Pailhès
+          strength: 978
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: 1er and 2e Bataillons, 3e Régiment de Voltigeurs
+          commander_name: Colonel Hurel
+          strength: 967
+          guns: -1
+          level: MISC
+          category: INFANTRY
+    - name: Guard Heavy Cavalry Division
+      commander_name: Général de Division Comte Guyot
+      strength: 1718
+      guns: 0
+      level: DIVISION
+      category: CAVALRY
+      units:
+      - name: Régiment de Vieille Garde Grenadiers à Cheval
+        commander_name: Général de Brigade Jamin, Marquis de Bermuy
+        strength: 796
+        guns: -1
+        level: MISC
+        category: CAVALRY
+      - name: Régiment de l'Impératrice Dragons
+        commander_name: Général de Brigade Baron Letort (killed 15 June 1815 at Gilly),
+          then Major Hoffmayer
+        strength: 816
+        guns: -1
+        level: MISC
+        category: CAVALRY
+      - name: Gendarmerie d'Elite
+        commander_name: Capitaine Dyonnet
+        strength: 106
+        guns: -1
+        level: MISC
+        category: CAVALRY
+    - name: Guard Light Cavalry Division
+      commander_name: Général de Division Comte Lefebvre-Desnouëttes
+      strength: 2557
+      guns: 126
+      level: DIVISION
+      category: CAVALRY
+      units:
+      - name: 1st Brigade
+        commander_name: Général de Division Baron Lallemand
+        strength: 1223
+        guns: 0
+        level: BRIGADE
+        category: CAVALRY
+        units:
+        - name: Régiment de Vieille Garde Chasseurs à Cheval (French and Mameluke)
+          commander_name: Général de Brigade François Antoine Lallemand
+          strength: 1223
+          guns: -1
+          level: MISC
+          category: CAVALRY
+      - name: 2nd Brigade
+        commander_name: Baron de Colbert-Chabanais
+        strength: 8106
+        guns: 126
+        level: BRIGADE
+        category: CAVALRY
+        units:
+        - name: 1er Régiment de Chevau-Légère Garde Lanciers (French and Polish)
+          commander_name: Colonels Schmitt and Jezmanowski
+          strength: 754
+          guns: -1
+          level: MISC
+          category: CAVALRY
+        - name: 2nd Régiment de Chevau-Légère Garde Lanciers (Dutch, French and Polish)
+          commander_name: Colonel de Colbert
+          strength: 580
+          guns: -1
+          level: MISC
+          category: CAVALRY
+        - name: Guard Artillery
+          commander_name: Général de Division Baron Desvaux de Saint-Maurice
+          strength: 2867
+          guns: -1
+          level: MISC
+          category: ARTILLERY
+        - name: Old Guard artillery
+          commander_name: ''
+          strength: -1
+          guns: -1
+          level: MISC
+          category: CAVALRY
+        - name: Foot Artillery
+          commander_name: General de brigade H-D Lallemand
+          strength: 429
+          guns: 72
+          level: MISC
+          category: ARTILLERY
+        - name: Horse Artillery
+          commander_name: General Jean-Baptiste Duchand
+          strength: 399
+          guns: 24
+          level: MISC
+          category: ARTILLERY
+        - name: Artillery train squadron
+          commander_name: ''
+          strength: 924
+          guns: -1
+          level: MISC
+          category: ARTILLERY
+        - name: Auxiliary artillery
+          commander_name: ''
+          strength: -1
+          guns: -1
+          level: MISC
+          category: CAVALRY
+        - name: Foot Artillery
+          commander_name: Dubuard (called Marin)
+          strength: 429
+          guns: 24
+          level: MISC
+          category: ARTILLERY
+        - name: Horse Artillery
+          commander_name: Laurent
+          strength: 73
+          guns: 6
+          level: MISC
+          category: ARTILLERY
+        - name: Artillery train squadron
+          commander_name: ''
+          strength: 613
+          guns: -1
+          level: MISC
+          category: ARTILLERY
+        - name: Guard Military engineers and Sailors
+          commander_name: Général de Division Baron Haxo
+          strength: 519
+          guns: -1
+          level: MISC
+          category: CAVALRY
+        - name: Sapper Company
+          commander_name: Boissonnet
+          strength: 112
+          guns: -1
+          level: MISC
+          category: CAVALRY
+        - name: Sailor Company
+          commander_name: Taillade
+          strength: 107
+          guns: -1
+          level: MISC
+          category: CAVALRY
+        - name: Equipment train
+          commander_name: Gubert
+          strength: 300
+          guns: -1
+          level: MISC
+          category: CAVALRY
+- name: British Army
+  commander_name: Wellington
+  strength: 75736
+  guns: 143
+  level: ARMY
+  category: MIXED
+  units:
+  - name: I Corps
+    commander_name: General William, Prince of Orange GCB
+    strength: 26703
+    guns: 52
+    level: CORPS
+    category: INFANTRY
+    units:
+    - name: 1st Division
+      commander_name: Major-General Sir George Cooke
+      strength: 4416
+      guns: 0
+      level: DIVISION
+      category: INFANTRY
+      units:
+      - name: 1st Brigade
+        commander_name: Major-General Peregrine Maitland
+        strength: 1979
+        guns: 0
+        level: BRIGADE
+        category: INFANTRY
+        units:
+        - name: 2nd Battalion, 1st Regiment of Foot Guards
+          commander_name: Lieutenant Colonel Henry Askew
+          strength: 954
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: 3rd Battalion, 1st Regiment of Foot Guards
+          commander_name: Lieutenant Colonel William Stuart
+          strength: 1022
+          guns: -1
+          level: MISC
+          category: INFANTRY
+      - name: 2nd Brigade
+        commander_name: Major-General Sir John Byng
+        strength: 2018
+        guns: 0
+        level: BRIGADE
+        category: INFANTRY
+        units:
+        - name: 2nd Battalion, Coldstream Regiment of Foot Guards
+          commander_name: Lieutenant-Colonel James Macdonnell
+          strength: 932
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: 2nd Battalion, 3rd Regiment of Foot Guards
+          commander_name: Second Major Francis Hepburn
+          strength: 1083
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: Artillery
+          commander_name: Lieutenant-Colonel Stephen Galway Adye
+          strength: 416
+          guns: -1
+          level: MISC
+          category: ARTILLERY
+        - name: Sandham's Battery Royal Artillery (RA)
+          commander_name: Captain Charles Freeman Sandham
+          strength: 104
+          guns: -1
+          level: MISC
+          category: ARTILLERY
+        - name: Kuhlmann's Battery Horse Artillery, King's German Legion (KGL)
+          commander_name: Captain Heinrich Jacob Kuhlmann
+          strength: 310
+          guns: -1
+          level: MISC
+          category: ARTILLERY
+    - name: 3rd Division
+      commander_name: Lieutenant-General Count Sir Charles Alten KCB (Count Carl von
+        Alten)
+      strength: 7473
+      guns: 0
+      level: DIVISION
+      category: INFANTRY
+      units:
+      - name: 5th Brigade
+        commander_name: Major-General Sir Colin Halkett KCB
+        strength: 2232
+        guns: 0
+        level: BRIGADE
+        category: INFANTRY
+        units:
+        - name: 2nd Battalion, 30th (Cambridgeshire) Regiment of Foot
+          commander_name: Lieutenant Colonel Alexander Hamilton
+          strength: 630
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: 33rd (1st Yorkshire West Riding) Regiment of Foot
+          commander_name: Lieutenant-Colonel William George Keith Elphinstone
+          strength: 555
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: 2nd Battalion, 69th (South Lincolnshire) Regiment of Foot
+          commander_name: Lieutenant-Colonel Charles Morice
+          strength: 533
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: 2nd Battalion, 73rd Regiment of Foot
+          commander_name: Lieutenant-Colonel William George Harris
+          strength: 510
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: 2nd Brigade, King's German Legion
+          commander_name: Brevet Colonel Baron Christian Freiherr von Ompteda
+          strength: 1682
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: 1st (Rifles) Light Battalion
+          commander_name: Lieutenant-Colonel Louis von dem Bussche
+          strength: 454
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: 2nd (Rifles) Light Battalion
+          commander_name: Major Georg Freiherr von Baring
+          strength: 390
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: 5th Line Battalion
+          commander_name: Lieutenant-Colonel Baron Wilhelm von Linsingen
+          strength: 426
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: 8th Line Battalion
+          commander_name: Lieutenant Colonel Johann van Schroeder
+          strength: 410
+          guns: -1
+          level: MISC
+          category: INFANTRY
+      - name: 1st Hanoverian Brigade
+        commander_name: Major-General Friedrich von Kielmansegg
+        strength: 3316
+        guns: 0
+        level: BRIGADE
+        category: INFANTRY
+        units:
+        - name: Field Battalion Bremen
+          commander_name: Lieutenant Colonel Wilhelm von Langrehre
+          strength: 533
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: Field Battalion 1st Duke of York's (Osnabrück)
+          commander_name: Major Carl Friedrich von Bülow
+          strength: 632
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: Light Battalion Grubenhagen
+          commander_name: Lieutenant Colonel Baron Friedrich von Wurmb
+          strength: 643
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: Light Battalion Lüneburg
+          commander_name: Lieutenant Colonel August von Klencke
+          strength: 617
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: Field Battalion Verden
+          commander_name: Major Julius von Schkopp
+          strength: 559
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: Field Jaeger Battalion (two companies)
+          commander_name: Captain de Reden
+          strength: 331
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: Artillery
+          commander_name: Lieutenant Colonel John Suther Williamson
+          strength: 238
+          guns: -1
+          level: MISC
+          category: ARTILLERY
+        - name: Lloyd's Battery RA
+          commander_name: Major William Lloyd
+          strength: 98
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: Cleeves' Battery KGLFA King's German Legion
+          commander_name: Captain Andreas Cleeves
+          strength: 138
+          guns: -1
+          level: MISC
+          category: INFANTRY
+    - name: 2nd Netherlands Division (2e Divisie)
+      commander_name: Luitenant-Generaal Baron Hendrik George de Perponcher Sedlnitsky
+      strength: 7987
+      guns: 0
+      level: DIVISION
+      category: INFANTRY
+      units:
+      - name: Artillery
+        commander_name: Colonel Hendrik Rudolf Trip
+        strength: 238
+        guns: -1
+        level: MISC
+        category: ARTILLERY
+      - name: 1st Brigade (1e Brigade)
+        commander_name: Generaal-Majoor Willem Frederik van Bylandt
+        strength: 3337
+        guns: 0
+        level: BRIGADE
+        category: INFANTRY
+        units:
+        - name: 27th Light Battalion (Bataljon Jagers No. 27)
+          commander_name: Luitenant-Kolonel Johann Willem Grunebosch
+          strength: 762
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: 7th Line Battalion (Bataljon Infanterie van Linie No. 7)
+          commander_name: Luitenant-Kolonel Frederik Charles van den Sande
+          strength: 689
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: 5th National Militia Battalion (Bataljon Nationale Militie No. 5)
+          commander_name: Luitenant-Kolonel Jan Johannes Westenberg
+          strength: 478
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: 7th National Militia Battalion (Bat. Nat. Mil. No. 7)
+          commander_name: Luitenant-Kolonel Hendrick Singendonck
+          strength: 644
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: 8th National Militia Battalion (Bat. Nat. Mil. No. 8)
+          commander_name: Luitenant-Kolonel Wijlbrandis Augustus de Jongh
+          strength: 524
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: Foot Artillery Battery (Batterij artillerie te voet)
+          commander_name: Kapitein Emmanuel Joseph Stevenart
+          strength: 110
+          guns: -1
+          level: MISC
+          category: ARTILLERY
+        - name: Train (Trein)
+          commander_name: Luitenant Frederik Van Gahlen
+          strength: 128
+          guns: -1
+          level: MISC
+          category: MISC
+        - name: Horse Artillery Battery (Batterij rijdende artillerie)
+          commander_name: Kapitein Adriaan van Bijleveld
+          strength: 105
+          guns: -1
+          level: MISC
+          category: ARTILLERY
+        - name: Train (Trein)
+          commander_name: Luitenant Gert van der Hoeven
+          strength: 111
+          guns: -1
+          level: MISC
+          category: MISC
+      - name: 2nd Brigade (2e Brigade)
+        commander_name: Kolonel Friedrich von Goedecke
+        strength: 4635
+        guns: 0
+        level: BRIGADE
+        category: INFANTRY
+        units:
+        - name: 2nd Nassau Infantry Regiment (2. Infanterieregiment von Nassau)
+          commander_name: Majoor Johann Friedrich Sattler
+          strength: 2671
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: 1st Battalion (1e Bataljon)
+          commander_name: Kapitein Moritz Büsgen
+          strength: 862
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: 2nd Battalion (2e Bataljon)
+          commander_name: Majoor Philipp von Normann
+          strength: 844
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: 3rd Battalion (3e Bataljon)
+          commander_name: Majoor Gottfried Hechmann
+          strength: 846
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: 28th Regiment, Orange-Nassau (Regiment Oranje-Nassau No. 28)
+          commander_name: Kolonel Bernhard of Saxe-Weimar-Eisenach
+          strength: 1682
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: 1st Battalion (1e Bataljon)
+          commander_name: Luitenant-Kolonel Wilhelm Ferdinand von Dressel
+          strength: 863
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: 2nd Battalion (2e Bataljon)
+          commander_name: Majoor Christian Philipp Schleyer
+          strength: 659
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: Volunteer Jager Company (Compagnie vrijwillige jagers) ('Oranje-Nassau')
+          commander_name: Kapitein Emilius Bergmann
+          strength: 158
+          guns: -1
+          level: MISC
+          category: INFANTRY
+    - name: 3rd Netherlands Division (3e Divisie)
+      commander_name: Luitenant-Generaal Baron David Hendrik Chassé
+      strength: 6811
+      guns: 0
+      level: DIVISION
+      category: INFANTRY
+      units:
+      - name: Artillery
+        commander_name: Majoor J.L.D. van der Smissen
+        strength: 310
+        guns: -1
+        level: MISC
+        category: ARTILLERY
+      - name: 1st Brigade (1e Brigade)
+        commander_name: Kolonel Hendrik Detmers
+        strength: 3090
+        guns: 0
+        level: BRIGADE
+        category: INFANTRY
+        units:
+        - name: 35th Light Battalion (Bataljon jagers No. 35)
+          commander_name: Luitenant-Kolonel Desire P. J. Arnould
+          strength: 605
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: 2nd Line Battalion (Bataljon Infanterie van linie No. 2)
+          commander_name: Luitenant-Kolonel Johannes Speelman
+          strength: 471
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: 4th National Militia Battalion (Bataljon Nationale Militie No. 4)
+          commander_name: Luitenant-Kolonel Ricard Baron van Heeckeren van Molencate
+          strength: 539
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: 6th National Militia Battalion (Bat. Nat. Mil. No. 6)
+          commander_name: Luitenant-Kolonel Adolphus van Thielen
+          strength: 492
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: 17th National Militia Battalion (Bat. Nat. Mil. No. 17)
+          commander_name: Luitenant-Kolonel Nicolas van Stolz Wieling
+          strength: 534
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: 19th National Militia Battalion (Bat. Nat. Mil. No. 19)
+          commander_name: Majoor H. Boelaard
+          strength: 467
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: Horse Artillery Battery (Batterij rijdende artillerie)
+          commander_name: Kapitein Carel Frederik Krahmer de Bichin
+          strength: 198
+          guns: -1
+          level: MISC
+          category: ARTILLERY
+        - name: Train (Trein)
+          commander_name: 1st Luitenant Zeist
+          strength: 111
+          guns: -1
+          level: MISC
+          category: MISC
+      - name: 2nd Brigade (2e Brigade)
+        commander_name: Generaal-Majoor Alexander d'Aubremé
+        strength: 3405
+        guns: 0
+        level: BRIGADE
+        category: INFANTRY
+        units:
+        - name: 36th Light Battalion (Bataljon jagers No. 36)
+          commander_name: Luitenant-Kolonel Charles Auguste Ernest Goethals
+          strength: 631
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: 3rd Line Battalion (Bataljon Infanterie van linie No. 3)
+          commander_name: Luitenant-Kolonel E. P. l'Honneux
+          strength: 621
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: 12th Line Battalion (Bat. Inf. van linie No. 12)
+          commander_name: Luitenant-Kolonel Daniel O. Bagelaar
+          strength: 431
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: 13th Line Battalion (Bat. Inf. van linie No. 13)
+          commander_name: Luitenant-Kolonel Frederik N. L. Aberson
+          strength: 664
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: 3rd National Militia Battalion(Bataljon Nationale Militie No. 3)
+          commander_name: Luitenant-Kolonel Niels van Malz Wieling
+          strength: 477
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: 10th National Militia Battalion (Bat. Nat. Mil. No. 10)
+          commander_name: Luitenant-Kolonel Gebhardt Fanus Brade
+          strength: 579
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: Foot Artillery Battery (Batterij artillerie te voet)
+          commander_name: Kapitein Johannes Hendrik Lux
+          strength: 198
+          guns: -1
+          level: MISC
+          category: ARTILLERY
+        - name: Train (Trein)
+          commander_name: 1st Luitenant Kikkert
+          strength: 124
+          guns: -1
+          level: MISC
+          category: MISC
+  - name: II Corps
+    commander_name: Lieutenant General Lord Hill GCB GCH
+    strength: 25802
+    guns: 40
+    level: CORPS
+    category: INFANTRY
+    units:
+    - name: 2nd Division
+      commander_name: Lieutenant General Sir Henry Clinton GCB
+      strength: 7534
+      guns: 0
+      level: DIVISION
+      category: INFANTRY
+      units:
+      - name: 3rd Brigade
+        commander_name: Major General Frederick Adam
+        strength: 2723
+        guns: 0
+        level: BRIGADE
+        category: INFANTRY
+        units:
+        - name: 1st Battalion, 52nd (Oxfordshire) Regiment of Foot
+          commander_name: Lt-Colonel Sir John Colborne KCB
+          strength: 1119
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: 1st Battalion, 71st (Glasgow Highland) Regiment of Foot
+          commander_name: Lieutenant-Colonel (Brevet Colonel) Thomas Reynell
+          strength: 802
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: 2nd Battalion, 95th Regiment of Foot (Rifles)
+          commander_name: Major (Brevet Lt Colonel) Amos Godsell Norcott
+          strength: 649
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: 3rd Battalion, 95th Regiment of Foot (Rifles), 2 companies
+          commander_name: Major (Brevet Lt Colonel) John Ross
+          strength: 203
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: 1st Brigade, King's German Legion
+          commander_name: Lieutenant Colonel Georg Carl August du Plat 
+          strength: 1996
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: 1st Line Battalion
+          commander_name: Major Friedrich Wilhelm von Robertson
+          strength: 444
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: 2nd Line Battalion
+          commander_name: Major Georg Muller
+          strength: 522
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: 3rd Line Battalion
+          commander_name: Lieutenant Colonel Friedrich von Wissell
+          strength: 536
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: 4th Line Battalion
+          commander_name: Major Friedrich Friedrich Reh
+          strength: 491
+          guns: -1
+          level: MISC
+          category: INFANTRY
+      - name: 3rd Hanoverian Brigade
+        commander_name: Lieutenant Colonel Hugh Baron Halkett
+        strength: 2453
+        guns: 0
+        level: BRIGADE
+        category: INFANTRY
+        units:
+        - name: Landwehr Battalion Bremervörde
+          commander_name: Lieutenant-Colonel Friedrich von der Schulenberg
+          strength: 632
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: Landwehr Battalion 2nd Duke of York's (Osnabrück)
+          commander_name: Major Baron Louis Gudririg von Münster
+          strength: 612
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: Landwehr Battalion 3rd Duke of York's (Quackenbrück)
+          commander_name: Major Baron Clamor von dem Bussche-Hünefeld
+          strength: 586
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: Landwehr Battalion Salzgitter
+          commander_name: Major Friedrich von Hammerstein
+          strength: 622
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: Artillery
+          commander_name: Lieutenant Colonel Charles Gold
+          strength: 305
+          guns: -1
+          level: MISC
+          category: ARTILLERY
+        - name: Bolton's Battery RA
+          commander_name: Captain Samuel Bolton
+          strength: 102
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: 1st Troop Sympher's Battery KGLHA, King's German Legion
+          commander_name: Captain Augustus Sympher
+          strength: 201
+          guns: -1
+          level: MISC
+          category: INFANTRY
+    - name: 4th Division
+      commander_name: Major General the Honourable Sir Charles Colville GCB GCH
+      strength: 7820
+      guns: 0
+      level: DIVISION
+      category: INFANTRY
+      units:
+      - name: 4th Brigade
+        commander_name: Lieutenant Colonel Hugh Henry Mitchell CB
+        strength: 1916
+        guns: 0
+        level: BRIGADE
+        category: INFANTRY
+        units:
+        - name: 3rd Battalion, 14th (Buckinghamshire) Regiment of Foot
+          commander_name: Major Francis Skelly Tidy
+          strength: 624
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: 1st Battalion, 23rd Regiment of Foot (Royal Welch Fusiliers)
+          commander_name: Lieutenant-Colonel (Brevet Colonel) Sir Henry Walton Ellis
+            KCB
+          strength: 689
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: 51st (2nd Yorkshire West Riding) Regiment of Foot
+          commander_name: Lieutenant-Colonel Hugh Henry Mitchell CB
+          strength: 602
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: 6th Brigade Not Present at Battle
+          commander_name: Major General George Johnstone
+          strength: 2611
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: 2nd Battalion, 35th (Sussex) Regiment of Foot
+          commander_name: Major Charles MacAlister
+          strength: 568
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: 1st Battalion, 54th (West Norfolk) Regiment of Foot
+          commander_name: Lieutenant-Colonel John James Waldegrave
+          strength: 600
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: 2nd Battalion, 59th (2nd Nottinghamshire) Regiment of Foot
+          commander_name: Lieutenant-Colonel Henry Austin
+          strength: 539
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: 2nd Battalion, 1st Battalion, 91st (Argyllshire) Regiment of Foot
+          commander_name: Lieutenant-Colonel Sir William Douglas KCB
+          strength: 901
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: 6th Hanoverian Brigade Not present at the Battle
+          commander_name: Major General Sir James Frederick Lyon KCB
+          strength: 3052
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: Field Battalion Calenberg
+          commander_name: Major Wilhelm Schnehen
+          strength: 634
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: Field Battalion Lauenburg
+          commander_name: Lieutenant-Colonel Gideon von Benoit
+          strength: 553
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: Landwehr Battalion Bentheim
+          commander_name: Major Christian Croupp
+          strength: 608
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: Landwehr Battalion Hoya
+          commander_name: Lieutenant-Colonel Otto Freiherr von Grote
+          strength: 629
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: Landwehr Battalion Nienburg
+          commander_name: Major Julius Brinckmann
+          strength: 625
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: Artillery Not present at Battle
+          commander_name: Lieutenant Colonel James Hawker
+          strength: 238
+          guns: -1
+          level: MISC
+          category: ARTILLERY
+        - name: Brome's Battery RA
+          commander_name: Captain Joseph Brome
+          strength: 95
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: Rettberg's Hanoverian Foot Artillery
+          commander_name: Captain Carl von Rettberg
+          strength: 142
+          guns: -1
+          level: MISC
+          category: ARTILLERY
+    - name: 1st Netherlands Division (1e Divisie)
+      commander_name: Luitenant-Generaal John Stedman
+      strength: 6357
+      guns: 0
+      level: DIVISION
+      category: INFANTRY
+      units:
+      - name: 1st Brigade (1e Brigade)
+        commander_name: Generaal-Majoor Ferdinand d'Hauw
+        strength: 3277
+        guns: 0
+        level: BRIGADE
+        category: INFANTRY
+        units:
+        - name: 16th Light Battalion (Bataljon Jagers No. 16)
+          commander_name: Luitenant-Kolonel Stefan Rudolf van Hulstein
+          strength: 490
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: 4th Line Battalion (Bataljon Infanterie van linie No. 4)
+          commander_name: Luitenant-Kolonel Ernst de Man
+          strength: 548
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: 6th Line Battalion (Bat. Inf. van linie No. 6)
+          commander_name: Luitenant-Kolonel Pieter Arnold Twent
+          strength: 431
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: 9th National Militia Battalion (Bataljon Nationale Militie No. 9)
+          commander_name: Luitenant-Kolonel Johann Jacobus Simons
+          strength: 562
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: 14th National Militia Battalion (Bat. Nat. Mil. No. 14)
+          commander_name: Luitenant-Kolonel Willem Poolman
+          strength: 586
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: 15th National Militia Battalion (Bat. Nat. Mil. No. 15)
+          commander_name: Luitenant-Kolonel Pieter Christiaan Colthoff
+          strength: 659
+          guns: -1
+          level: MISC
+          category: INFANTRY
+      - name: 2nd Brigade (2e Brigade)
+        commander_name: Generaal-Majoor Dominique Johann de Eerens
+        strength: 3079
+        guns: 0
+        level: BRIGADE
+        category: INFANTRY
+        units:
+        - name: 18th Light Battalion (Bataljon Jagers No. 18)
+          commander_name: Luitenant-Kolonel Prins August van Arenberg
+          strength: 728
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: 1st Line Battalion (Bataljon Infanterie van linie No. 1)
+          commander_name: Luitenant-Kolonel Willem Kuijck
+          strength: 661
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: 1st National Militia Battalion (Bataljon Nationale Militie No. 1)
+          commander_name: Luitenant-Kolonel Frederik Augustus Guicherit
+          strength: 591
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: 2nd National Militia Battalion (Bat. Nat. Mil No. 2)
+          commander_name: Luitenant-Kolonel Albert Willem Senn van Bazel
+          strength: 582
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: 18th National Militia Battalion (Bat. Nat. Mil No. 18)
+          commander_name: Luitenant-Kolonel Frederik Willem van Ommeren
+          strength: 516
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: Foot Artillery Battery (Batterij artillerie te voet)
+          commander_name: Kapitein Pieter Wijnands
+          strength: 119
+          guns: -1
+          level: MISC
+          category: ARTILLERY
+        - name: Train
+          commander_name: 1e Luitenant C. Naumann
+          strength: 120
+          guns: -1
+          level: MISC
+          category: MISC
+      - name: 'Indies Brigade (Indische Brigade: troops for the colonies)'
+        commander_name: Luitenant-Generaal Baron Carl Heinrich Wilhelm Anthing
+        strength: 4083
+        guns: 0
+        level: BRIGADE
+        category: INFANTRY
+        units:
+        - name: 5th East Indian regiment (Oost-Indisch regiment No. 5)
+          commander_name: Generaal-Majoor Gerard M. Busman
+          strength: 1541
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: '...1st Line Battalion (1e Bataljon van linie)'
+          commander_name: Luitenant-Kolonel B. Bischoff
+          strength: 780
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: '...2nd Line Battalion (2e Bataljon van linie)'
+          commander_name: Luitenant-Kolonel F. Stöcker
+          strength: 759
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: 10th West Indies Light Battalion (Bataljon West-Indische jagers No.
+            10)
+          commander_name: Kolonel Heinz Willem Charles Rancke
+          strength: 704
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: 11th West Indies Light Battalion (Bataljon West-Indische jagers No.
+            11)
+          commander_name: Luitenant-Kolonel Frederik Knotzer
+          strength: 718
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: Light Battalion (Bataljon Flankeurs)
+          commander_name: Kolonel 2e klasse W. Schenck
+          strength: 536
+          guns: -1
+          level: MISC
+          category: INFANTRY
+        - name: Foot Artillery Battery (Batterij artillerie te voet)
+          commander_name: Kapitein Carl Jan Riesz
+          strength: 180
+          guns: -1
+          level: MISC
+          category: ARTILLERY
+  - name: Anglo-Allied Army Cavalry Corps
+    commander_name: Lieutenant General the Earl of Uxbridge GCB
+    strength: 16410
+    guns: 35
+    level: CORPS
+    category: CAVALRY
+    units:
+    - name: 1st (Household) Cavalry Brigade
+      commander_name: Major-General Lord Edward Somerset KCB
+      strength: 1213
+      guns: 0
+      level: BRIGADE
+      category: CAVALRY
+      units:
+      - name: 1st Regiment of Life Guards
+        commander_name: Major and Lieutenant-Colonel Samuel Ferrior
+        strength: 226
+        guns: -1
+        level: MISC
+        category: CAVALRY
+      - name: 2nd Regiment of Life Guards
+        commander_name: Lieutenant Colonel Richard Fitzgerald
+        strength: 190
+        guns: -1
+        level: MISC
+        category: CAVALRY
+      - name: Royal Regiment of Horse Guards
+        commander_name: Lieutenant-Colonel Sir Robert Chambre Hill
+        strength: 207
+        guns: -1
+        level: MISC
+        category: CAVALRY
+      - name: 1st King's Dragoon Guards
+        commander_name: Lieutenant Colonel William Fuller
+        strength: 587
+        guns: -1
+        level: MISC
+        category: CAVALRY
+    - name: 2nd Union Cavalry Brigade
+      commander_name: Major General Sir William Ponsonby KCB
+      strength: 1119
+      guns: 0
+      level: BRIGADE
+      category: CAVALRY
+      units:
+      - name: 1st (Royal) Dragoons
+        commander_name: Lieutenant Colonel Arthur Benjamin Clifton
+        strength: 374
+        guns: -1
+        level: MISC
+        category: CAVALRY
+      - name: 2nd (Royal North British) Dragoons (Scots Greys)
+        commander_name: Lieutenant-Colonel James Inglis Hamilton
+        strength: 368
+        guns: -1
+        level: MISC
+        category: CAVALRY
+      - name: 6th (Inniskilling) Dragoons
+        commander_name: Lieutenant Colonel Joseph Muter
+        strength: 373
+        guns: -1
+        level: MISC
+        category: CAVALRY
+    - name: 3rd British Brigade
+      commander_name: Major General Sir Wilhelm von Dörnberg
+      strength: 1408
+      guns: 0
+      level: BRIGADE
+      category: CAVALRY
+      units:
+      - name: 1st Light Dragoons, King's German Legion
+        commander_name: Lieutenant-Colonel Johann Bulow
+        strength: 507
+        guns: -1
+        level: MISC
+        category: CAVALRY
+      - name: 2nd Light Dragoons, King's German Legion
+        commander_name: Lieutenant-Colonel Karl von Jonquieries
+        strength: 482
+        guns: -1
+        level: MISC
+        category: CAVALRY
+      - name: 23rd Light Dragoons
+        commander_name: Lieutenant-Colonel John Dawson, 2nd Earl of Portarlington
+        strength: 417
+        guns: -1
+        level: MISC
+        category: CAVALRY
+    - name: 4th British Brigade
+      commander_name: Major General Sir John Ormsby Vandeleur
+      strength: 1305
+      guns: 0
+      level: BRIGADE
+      category: CAVALRY
+      units:
+      - name: 11th Light Dragoons
+        commander_name: Lieutenant-Colonel James Wallace Sleigh
+        strength: 447
+        guns: -1
+        level: MISC
+        category: CAVALRY
+      - name: 12th (Prince of Wales's) Light Dragoons
+        commander_name: Lieutenant-Colonel The Hon. Frederick Cavendish Ponsonby
+        strength: 399
+        guns: -1
+        level: MISC
+        category: CAVALRY
+      - name: 16th (Queen's) Light Dragoons
+        commander_name: Lieutenant-Colonel James Hay
+        strength: 456
+        guns: -1
+        level: MISC
+        category: CAVALRY
+    - name: 5th British Brigade
+      commander_name: Major General Sir Colquhoun Grant KCB
+      strength: 1444
+      guns: 0
+      level: BRIGADE
+      category: CAVALRY
+      units:
+      - name: 7th (Queen's Own) Light Dragoons (Hussars)
+        commander_name: Lieutenant Colonel Sir Edward Kerrison KCB
+        strength: 446
+        guns: -1
+        level: MISC
+        category: CAVALRY
+      - name: 15th (King's) Light Dragoons (Hussars)
+        commander_name: Lieutenant-Colonel Leighton Cathcart Dalrymple
+        strength: 430
+        guns: -1
+        level: MISC
+        category: CAVALRY
+      - name: 2nd Hussars, King's German Legion, replaced by the 13th Light Dragoons
+          in the battle
+        commander_name: Lieutenant-Colonel August von Linsingen
+        strength: 564
+        guns: -1
+        level: MISC
+        category: CAVALRY
+    - name: 6th Cavalry Brigade
+      commander_name: Major General Sir Richard Hussey Vivian KCB
+      strength: 1463
+      guns: 0
+      level: BRIGADE
+      category: CAVALRY
+      units:
+      - name: 10th (Prince of Wales' Own) Light Dragoons (Hussars)
+        commander_name: Lieutenant-Colonel George Quentin
+        strength: 437
+        guns: -1
+        level: MISC
+        category: CAVALRY
+      - name: 18th (King's Irish) Light Dragoons (Hussars)
+        commander_name: Lieutenant-Colonel Hon. Henry Murray
+        strength: 441
+        guns: -1
+        level: MISC
+        category: CAVALRY
+      - name: 1st Hussars, King's German Legion
+        commander_name: Lieutenant-Colonel August von Wissell
+        strength: 581
+        guns: -1
+        level: MISC
+        category: CAVALRY
+    - name: 7th British Brigade
+      commander_name: Brevet Colonel Sir Friedrich von Arentsschildt
+      strength: 1143
+      guns: 0
+      level: BRIGADE
+      category: CAVALRY
+      units:
+      - name: 13th Light Dragoons – attached to the 5th Brigade during the battle
+        commander_name: 'Lieutenant-Colonel Patrick Doherty – acting commander: Lt.
+          Cl. Shapland Boyse'
+        strength: 429
+        guns: -1
+        level: MISC
+        category: CAVALRY
+      - name: 3rd Hussars, King's German Legion
+        commander_name: Lieutenant Colonel Lewis Meyer
+        strength: 713
+        guns: -1
+        level: MISC
+        category: CAVALRY
+      - name: Attached Artillery
+        commander_name: Lieutenant Colonel Sir Augustus Simon Frazer KCB FRS
+        strength: 1065
+        guns: -1
+        level: MISC
+        category: ARTILLERY
+      - name: I (Bull's) Troop, Royal Horse Artillery (RHA)
+        commander_name: Major Robert Bull
+        strength: 19
+        guns: -1
+        level: MISC
+        category: ARTILLERY
+      - name: F (Webber-Smith's) Troop, RHA
+        commander_name: Lieutenant Colonel James Webber Smith
+        strength: 170
+        guns: -1
+        level: MISC
+        category: CAVALRY
+      - name: E (Gardiner's) Troop, RHA
+        commander_name: Lieutenant Colonel Sir Robert Gardiner KCB
+        strength: 174
+        guns: -1
+        level: MISC
+        category: CAVALRY
+      - name: 2nd Rocket (Whinyates') Troop, RHA
+        commander_name: Captain Edward Charles Whinyates
+        strength: 202
+        guns: -1
+        level: MISC
+        category: CAVALRY
+      - name: H (Ramsay's) Troop, RHA
+        commander_name: Major William Norman Ramsay
+        strength: 176
+        guns: -1
+        level: MISC
+        category: CAVALRY
+      - name: G (Dickson's or Mercer's) Troop, RHA
+        commander_name: Captain Alexander Cavalié Mercer
+        strength: 170
+        guns: -1
+        level: MISC
+        category: CAVALRY
+    - name: 1st Hanoverian Brigade
+      commander_name: Colonel Albrecht von Estorff
+      strength: 1689
+      guns: 0
+      level: BRIGADE
+      category: CAVALRY
+      units:
+      - name: Prince Regent's Hussars Absent from Battle (Halle)
+        commander_name: Lieutenant-Colonel Count Ferdinand Graf von Kielmansegge
+        strength: 601
+        guns: -1
+        level: MISC
+        category: CAVALRY
+      - name: Bremen and Verden Hussars Absent from Battle (Halle)
+        commander_name: Colonel August von dem Bussche
+        strength: 589
+        guns: -1
+        level: MISC
+        category: CAVALRY
+      - name: Duke of Cumberland's Hussars
+        commander_name: Lieutenant-Colonel Georg von Hake
+        strength: 497
+        guns: -1
+        level: MISC
+        category: CAVALRY
+    - name: Netherlands Cavalry Division (Divisie Cavalerie)
+      commander_name: Luitenant-Generaal Jean Antoine de Collaert
+      strength: 3634
+      guns: 0
+      level: DIVISION
+      category: CAVALRY
+      units:
+      - name: Heavy Cavalry Brigade (Brigade Zware Cavalerie)
+        commander_name: Generaal-Majoor Albert Dominicus Trip van Zoudtlandt
+        strength: 1241
+        guns: 0
+        level: BRIGADE
+        category: CAVALRY
+        units:
+        - name: 1st Carabiniers (Regiment karabiniers No. 1)
+          commander_name: Luitenant-Kolonel Lambertus Coenegracht
+          strength: 446
+          guns: -1
+          level: MISC
+          category: CAVALRY
+        - name: 2nd Carabiniers (Regiment karabiniers No. 2)
+          commander_name: Kolonel Jean Baptiste de Bruijn de Basisque
+          strength: 400
+          guns: -1
+          level: MISC
+          category: CAVALRY
+        - name: 3rd Carabiniers (Regiment karabiniers No. 3)
+          commander_name: Luitenant-Kolonel Christiaan Maria Lechleitner
+          strength: 392
+          guns: -1
+          level: MISC
+          category: CAVALRY
+      - name: 1st Light Brigade (1e Brigade Lichte Cavalerie)
+        commander_name: Generaal-Majoor Baron Charles Étienne de Ghigny
+        strength: 1085
+        guns: 0
+        level: BRIGADE
+        category: CAVALRY
+        units:
+        - name: 4th Light Dragoons (Regiment lichte dragonders No. 4)
+          commander_name: Luitenant-Kolonel Johan Renno
+          strength: 653
+          guns: -1
+          level: MISC
+          category: CAVALRY
+        - name: 8th Hussars (Regiment huzaren No. 8)
+          commander_name: Luitenant-Kolonel Ignance Louis, Baron Duvivier
+          strength: 427
+          guns: -1
+          level: MISC
+          category: CAVALRY
+      - name: 2nd Light Brigade (2e Brigade Lichte Cavalerie)
+        commander_name: Generaal-Majoor Jean Baptiste, Baron van Merlen
+        strength: 1063
+        guns: 0
+        level: BRIGADE
+        category: CAVALRY
+        units:
+        - name: 5th Light Dragoons (Regiment lichte dragonders No. 5)
+          commander_name: Luitenant-Kolonel Edouard A. J. G. de Mercx de Corbais
+          strength: 421
+          guns: -1
+          level: MISC
+          category: CAVALRY
+        - name: 6th Hussars (Regiment Huzaren van Boreel
+          commander_name: Luitenant-Kolonel Jonkheer Willem Francois Boreel
+          strength: 639
+          guns: -1
+          level: MISC
+          category: CAVALRY
+        - name: Attached artillery and train
+          commander_name: ''
+          strength: -1
+          guns: -1
+          level: MISC
+          category: CAVALRY
+        - name: Horse artillery half battery (halve batterij rijdende artillerie)
+          commander_name: Kapitein Abraham Petter
+          strength: 111
+          guns: -1
+          level: MISC
+          category: CAVALRY
+        - name: Horse artillery half battery (halve batterij rijdende artillerie)
+          commander_name: Kapitein Adrianus Rudolf Willem Geij van Pittius
+          strength: 3
+          guns: -1
+          level: MISC
+          category: CAVALRY
+        - name: Train (Trein)
+          commander_name: 2nd Luitenant Camiese
+          strength: 111
+          guns: -1
+          level: MISC
+          category: MISC
+  - name: Cavalry of the Brunswick Corps
+    commander_name: Major Von Cramm
+    strength: 922
+    guns: 0
+    level: CORPS
+    category: CAVALRY
+    units:
+    - name: 2nd Hussars Regiment
+      commander_name: Major von Cramm
+      strength: 690
+      guns: -1
+      level: MISC
+      category: CAVALRY
+    - name: Uhlans (1 Squadron)
+      commander_name: Major Carl Pott
+      strength: 232
+      guns: -1
+      level: MISC
+      category: CAVALRY
+    - name: 5th Division
+      commander_name: Lieutenant General Sir Thomas Picton GCB
+      strength: 7548
+      guns: 0
+      level: DIVISION
+      category: CAVALRY
+      units:
+      - name: 8th Brigade
+        commander_name: Major General Sir James Kempt KCB
+        strength: 2515
+        guns: 0
+        level: BRIGADE
+        category: CAVALRY
+        units:
+        - name: 1st Battalion, 28th (North Gloucestershire) Regiment of Foot
+          commander_name: Colonel Sir Charles Paul Belson KCB
+          strength: 619
+          guns: -1
+          level: MISC
+          category: CAVALRY
+        - name: 1st Battalion, 32nd (Cornwall) Regiment of Foot
+          commander_name: Major (Brevet Lieutenant Colonel) John Hicks
+          strength: 649
+          guns: -1
+          level: MISC
+          category: CAVALRY
+        - name: 1st Battalion, 79th Regiment of Foot (Cameron Highlanders)
+          commander_name: Lieutenant-Colonel Neil Douglas
+          strength: 702
+          guns: -1
+          level: MISC
+          category: CAVALRY
+        - name: 1st Battalion, 95th Regiment of Foot (Rifles)
+          commander_name: Lieutenant-Colonel (Brevet Colonel) Sir Andrew Frederick
+            Barnard KCB
+          strength: 542
+          guns: -1
+          level: MISC
+          category: CAVALRY
+      - name: 9th Brigade
+        commander_name: Major General Sir Dennis Pack KCB
+        strength: 2310
+        guns: 0
+        level: BRIGADE
+        category: CAVALRY
+        units:
+        - name: 3rd Battalion, 1st Regiment of Foot (The Royal Scots)
+          commander_name: Lieutenant Colonel Colin Campbell
+          strength: 640
+          guns: -1
+          level: MISC
+          category: CAVALRY
+        - name: 1st Battalion, 42nd (Royal Highland) Regiment of Foot
+          commander_name: Lieutenant-Colonel Sir Robert Macara KCB
+          strength: 589
+          guns: -1
+          level: MISC
+          category: CAVALRY
+        - name: 2nd Battalion, 44th (East Essex) Regiment of Foot
+          commander_name: Lieutenant-Colonel John Miller Hamerton
+          strength: 463
+          guns: -1
+          level: MISC
+          category: CAVALRY
+        - name: 1st Battalion, 92nd Regiment of Foot (Gordon Highlanders)
+          commander_name: Lieutenant-Colonel John Cameron of Fassifern
+          strength: 615
+          guns: -1
+          level: MISC
+          category: CAVALRY
+      - name: 5th Hanoverian Brigade
+        commander_name: Colonel Ernst von Vincke
+        strength: 2508
+        guns: 0
+        level: BRIGADE
+        category: CAVALRY
+        units:
+        - name: Landwehr Battalion Gifhorn
+          commander_name: Major Georg von Hammerstein
+          strength: 610
+          guns: -1
+          level: MISC
+          category: CAVALRY
+        - name: Landwehr Battalion Hameln
+          commander_name: Major Julius von Strube
+          strength: 669
+          guns: -1
+          level: MISC
+          category: CAVALRY
+        - name: Landwehr Battalion Hildesheim
+          commander_name: Major Georg von Rheden
+          strength: 617
+          guns: -1
+          level: MISC
+          category: CAVALRY
+        - name: Landwehr Battalion Peine
+          commander_name: Major Ludolph Graf von Westphalen
+          strength: 611
+          guns: -1
+          level: MISC
+          category: CAVALRY
+        - name: Artillery
+          commander_name: Major Heinrich Heise
+          strength: 203
+          guns: -1
+          level: MISC
+          category: ARTILLERY
+        - name: Roger's Battery RA
+          commander_name: Captain Thomas Rogers
+          strength: 95
+          guns: -1
+          level: MISC
+          category: CAVALRY
+        - name: Braun's Hanoverian Foot Artillery
+          commander_name: Captain Wilhelm Braun
+          strength: 105
+          guns: -1
+          level: MISC
+          category: ARTILLERY
+    - name: 6th Division
+      commander_name: Lieutenant General Sir Lowry Cole
+      strength: 5185
+      guns: 0
+      level: DIVISION
+      category: CAVALRY
+      units:
+      - name: 10th Brigade
+        commander_name: Major General Sir John Lambert KCB
+        strength: 2389
+        guns: 0
+        level: BRIGADE
+        category: CAVALRY
+        units:
+        - name: 1st Battalion, 4th (King's Own) Regiment of Foot
+          commander_name: Lieutenant Colonel Francis Brooke
+          strength: 568
+          guns: -1
+          level: MISC
+          category: CAVALRY
+        - name: 1st Battalion, 27th (Inniskilling) Regiment of Foot
+          commander_name: Major John Hare
+          strength: 584
+          guns: -1
+          level: MISC
+          category: CAVALRY
+        - name: 2nd Battalion, 40th (2nd Somersetshire) Regiment of Foot
+          commander_name: Major Arthur Rowley Heyland
+          strength: 795
+          guns: -1
+          level: MISC
+          category: CAVALRY
+        - name: 2nd Battalion, 2nd Battalion, 81st Regiment of Foot (Loyal Lincoln
+            Volunteers) Absent from Battle
+          commander_name: Lieutenant Colonel Henry Milling
+          strength: 439
+          guns: -1
+          level: MISC
+          category: CAVALRY
+      - name: 4th Hanoverian Brigade
+        commander_name: Colonel Charles Best
+        strength: 2481
+        guns: 0
+        level: BRIGADE
+        category: CAVALRY
+        units:
+        - name: Landwehr Battalion Lüneburg
+          commander_name: Lieutenant Colonel Ludwig von Ramdohr
+          strength: 606
+          guns: -1
+          level: MISC
+          category: CAVALRY
+        - name: Landwehr Battalion Munden
+          commander_name: Major Ferdinand von Schmid
+          strength: 627
+          guns: -1
+          level: MISC
+          category: CAVALRY
+        - name: Landwehr Battalion Osterode
+          commander_name: Major Claus von Reden
+          strength: 656
+          guns: -1
+          level: MISC
+          category: CAVALRY
+        - name: Landwehr Battalion Verden
+          commander_name: Major Christoff von der Decken
+          strength: 590
+          guns: -1
+          level: MISC
+          category: CAVALRY
+        - name: Artillery
+          commander_name: Major Heinrich Bruckmann
+          strength: 211
+          guns: -1
+          level: MISC
+          category: ARTILLERY
+        - name: Unett's Battery RA (absent at Ostend)
+          commander_name: Captain George Wilkes Unett
+          strength: 106
+          guns: -1
+          level: MISC
+          category: CAVALRY
+        - name: Sinclair's Battery RA
+          commander_name: Second Captain James Sinclair
+          strength: 104
+          guns: -1
+          level: MISC
+          category: CAVALRY
+        - name: British Reserve Artillery
+          commander_name: Major Percy Drummond
+          strength: 426
+          guns: -1
+          level: MISC
+          category: ARTILLERY
+        - name: A (Ross') Troop RHA
+          commander_name: Lieutenant Colonel Sir Hew Dalrymple Ross GCB
+          strength: 159
+          guns: -1
+          level: MISC
+          category: CAVALRY
+        - name: D (Beane's) Troop RHA
+          commander_name: Major George Beane
+          strength: 166
+          guns: -1
+          level: MISC
+          category: CAVALRY
+        - name: Detachment Hewitt's Company RA
+          commander_name: ''
+          strength: 7
+          guns: -1
+          level: MISC
+          category: CAVALRY
+        - name: Detachment Tyler's Company RA
+          commander_name: ''
+          strength: 5
+          guns: -1
+          level: MISC
+          category: CAVALRY
+        - name: Detachment Cockburn's Company RA
+          commander_name: ''
+          strength: 3
+          guns: -1
+          level: MISC
+          category: CAVALRY
+        - name: Detachment May's Company RA
+          commander_name: ''
+          strength: 0
+          guns: -1
+          level: MISC
+          category: CAVALRY
+        - name: Hutchesson's Battery RA
+          commander_name: Captain Thomas Hutchensson
+          strength: 44
+          guns: -1
+          level: MISC
+          category: CAVALRY
+        - name: Ibert's Battery RA
+          commander_name: Captain Courtnay Ilbert
+          strength: 40
+          guns: -1
+          level: MISC
+          category: CAVALRY
+  - name: Brunswick Corps
+    commander_name: Lieutenant General Duke of Brunswick
+    strength: 5899
+    guns: 16
+    level: CORPS
+    category: INFANTRY
+    units:
+    - name: Brunswick Advance Guard
+      commander_name: Major von Rauschenplatt
+      strength: 672
+      guns: -1
+      level: MISC
+      category: INFANTRY
+    - name: 1st Brigade
+      commander_name: Lieutenant-Colonel Wilhelm Treunch von Butlar
+      strength: 2691
+      guns: 0
+      level: BRIGADE
+      category: INFANTRY
+      units:
+      - name: Guard Battalion
+        commander_name: Major Friedrich von Pröstler
+        strength: 672
+        guns: -1
+        level: MISC
+        category: INFANTRY
+      - name: 1st Light Infantry Battalion
+        commander_name: Major von Holstein
+        strength: 672
+        guns: -1
+        level: MISC
+        category: INFANTRY
+      - name: 2nd Light Infantry Battalion
+        commander_name: Major Heinrich von Brandenstein
+        strength: 673
+        guns: -1
+        level: MISC
+        category: INFANTRY
+      - name: 3rd Light Infantry Battalion
+        commander_name: Major von Ebeling
+        strength: 672
+        guns: -1
+        level: MISC
+        category: INFANTRY
+    - name: 2nd Brigade
+      commander_name: Lieutenant-Colonel Friedrich von Specht
+      strength: 2019
+      guns: 0
+      level: BRIGADE
+      category: INFANTRY
+      units:
+      - name: 1st Line Battalion
+        commander_name: Major Metzner
+        strength: 672
+        guns: -1
+        level: MISC
+        category: INFANTRY
+      - name: 2nd Line Battalion
+        commander_name: Major von Strombeck
+        strength: 673
+        guns: -1
+        level: MISC
+        category: INFANTRY
+      - name: 3rd Line Battalion
+        commander_name: Major Gustavus von Normann
+        strength: 672
+        guns: -1
+        level: MISC
+        category: INFANTRY
+      - name: Artillery
+        commander_name: Major August Mahn
+        strength: 511
+        guns: -1
+        level: MISC
+        category: ARTILLERY
+      - name: Heinemann's Horse Battery
+        commander_name: Captain Manfred von Heinemann
+        strength: 294
+        guns: -1
+        level: MISC
+        category: INFANTRY
+      - name: Moll's Foot Battery
+        commander_name: Major Johann Moll
+        strength: 216
+        guns: -1
+        level: MISC
+        category: INFANTRY
+      - name: Hanoverian Reserve Corps Absent – Garrison Duty
+        commander_name: Lieutenant-General Friedrich von der Decken
+        strength: 9438
+        guns: -1
+        level: MISC
+        category: INFANTRY
+    - name: 1st Brigade
+      commander_name: Lieutenant-Colonel August von Bennigsen
+      strength: 2007
+      guns: 0
+      level: BRIGADE
+      category: INFANTRY
+      units:
+      - name: Field Battalion Hoya
+        commander_name: Lieutenant Colonel Ernst von Bothmer
+        strength: 666
+        guns: -1
+        level: MISC
+        category: INFANTRY
+      - name: Landwehr Battalion Mölln
+        commander_name: Major von Donop
+        strength: 664
+        guns: -1
+        level: MISC
+        category: INFANTRY
+      - name: Landwehr Battalion Bremerlehe
+        commander_name: Major Arnold von der Decken
+        strength: 675
+        guns: -1
+        level: MISC
+        category: INFANTRY
+    - name: 2nd Brigade
+      commander_name: Lieutenant-Colonel Karl von Beaulieu
+      strength: 2027
+      guns: 0
+      level: BRIGADE
+      category: INFANTRY
+      units:
+      - name: Landwehr Battalion Nordheim
+        commander_name: Major Wilhelm Delius
+        strength: 667
+        guns: -1
+        level: MISC
+        category: INFANTRY
+      - name: Landwehr Battalion Ahlefeldt
+        commander_name: Major Wilhelm Dammers
+        strength: 730
+        guns: -1
+        level: MISC
+        category: INFANTRY
+      - name: Landwehr Battalion Springe
+        commander_name: Captain August Luderitz
+        strength: 627
+        guns: -1
+        level: MISC
+        category: INFANTRY
+    - name: 3rd Brigade
+      commander_name: Lieutenant-Colonel Karl von Bülow
+      strength: 2738
+      guns: 0
+      level: BRIGADE
+      category: INFANTRY
+      units:
+      - name: Landwehr Battalion Otterndorf
+        commander_name: Major Georg von Rheden
+        strength: 715
+        guns: -1
+        level: MISC
+        category: INFANTRY
+      - name: Landwehr Battalion Celle
+        commander_name: Lieutenant Colonel August von dem Kneseback
+        strength: 638
+        guns: -1
+        level: MISC
+        category: INFANTRY
+      - name: Landwehr Battalion Ratzeburg
+        commander_name: Major Christian von Hammerstein
+        strength: 646
+        guns: -1
+        level: MISC
+        category: INFANTRY
+      - name: Landwehr Battalion Lüchow
+        commander_name: Captain Henirich Walter
+        strength: 738
+        guns: -1
+        level: MISC
+        category: INFANTRY
+    - name: 4th Brigade
+      commander_name: Colonel Rudolf Bodecker
+      strength: 2662
+      guns: 0
+      level: BRIGADE
+      category: INFANTRY
+      units:
+      - name: Landwehr Battalion Hannover
+        commander_name: Major Johann von Weyhe
+        strength: 677
+        guns: -1
+        level: MISC
+        category: INFANTRY
+      - name: Landwehr Battalion Uelzen
+        commander_name: Captain Eberhard Kuntze
+        strength: 624
+        guns: -1
+        level: MISC
+        category: INFANTRY
+      - name: Landwehr Battalion Neustadt
+        commander_name: Major Friedrich von Hodenberg
+        strength: 680
+        guns: -1
+        level: MISC
+        category: INFANTRY
+      - name: Landwehr Battalion Diepholz
+        commander_name: Major Augustus von Bar
+        strength: 680
+        guns: -1
+        level: MISC
+        category: INFANTRY
+      - name: Nassau 1st Infantry Regiment
+        commander_name: Lieutenant General Baron August von Kruse
+        strength: 2880
+        guns: -1
+        level: MISC
+        category: INFANTRY
+      - name: 1st Battalion 1st Nassau Regiment
+        commander_name: Colonel Ernst von Steuben/Major Wilhelm von Weyhers
+        strength: 952
+        guns: -1
+        level: MISC
+        category: INFANTRY
+      - name: 2nd Battalion 1st Nassau Regiment
+        commander_name: Major Adolph von Nauendorf
+        strength: 980
+        guns: -1
+        level: MISC
+        category: INFANTRY
+      - name: 3rd Battalion 1st Nassau Regiment
+        commander_name: Major Friedrich von Preen
+        strength: 947
+        guns: -1
+        level: MISC
+        category: INFANTRY
+- name: Prussian Army
+  commander_name: Blücher
+  strength: 122500
+  guns: 361
+  level: ARMY
+  category: MIXED
+  units:
+  - name: I Corps
+    commander_name: Generalleutnant Hans Ernst Graf von Zieten
+    strength: 32500
+    guns: 96
+    level: CORPS
+    category: MIXED
+    units:
+    - name: 1st Brigade
+      commander_name: von Steinmetz
+      strength: 9069
+      guns: 0
+      level: BRIGADE
+      category: INFANTRY
+      units:
+      - name: 1., 2. and Fusilier Bataillons, 12. (2nd Brandenburgisches) Infanterie
+          Regiment
+        commander_name: Oberstleutnant Obergraven
+        strength: -1
+        guns: -1
+        level: MISC
+        category: INFANTRY
+      - name: 1., 2. and Fusilier Bataillons, 24. (4th Brandenburgisches) Infanterie
+          Regiment
+        commander_name: Major von Laurens
+        strength: -1
+        guns: -1
+        level: MISC
+        category: INFANTRY
+      - name: 1., 2. and 3. Bataillons, 1. (Kleven) Westfalen Landwehr Regiment
+        commander_name: Oberstleutnant von Rüchel-Kleist
+        strength: -1
+        guns: -1
+        level: MISC
+        category: INFANTRY
+    - name: 2nd Brigade
+      commander_name: Pirch II
+      strength: 10568
+      guns: 0
+      level: BRIGADE
+      category: INFANTRY
+      units:
+      - name: 1., 2. and Fusilier Bataillons, 6. (1. West Prussian) Infanterie Regiment
+        commander_name: Colonel von Kemphen
+        strength: 69
+        guns: -1
+        level: MISC
+        category: INFANTRY
+      - name: 1., 2. and Fusilier Bataillons, 28. (1. Berg) Infanterie Regiment
+        commander_name: Major Baron Quadt von Hictenbrock I
+        strength: 72
+        guns: -1
+        level: MISC
+        category: INFANTRY
+      - name: 1., 2. and 3. Bataillons, 2. (Minden-Ravensberg) Westfalen Landwehr
+          Regiment
+        commander_name: Major von Winterfeld
+        strength: 59
+        guns: -1
+        level: MISC
+        category: INFANTRY
+      - name: 16. ( 3. Westfalen ) Infantrie Regiment
+        commander_name: Major Barron Spar
+        strength: 62
+        guns: -1
+        level: MISC
+        category: INFANTRY
+    - name: 3rd Brigade
+      commander_name: von Jagow
+      strength: 7146
+      guns: 0
+      level: BRIGADE
+      category: INFANTRY
+      units:
+      - name: 1., 2. and Fusilier Bataillons, 7. (2. West Prussian) Infanterie Regiment
+        commander_name: Oberstleutnant von Seydlitz
+        strength: -1
+        guns: -1
+        level: MISC
+        category: INFANTRY
+      - name: 1., 2. and Fusilier Bataillons, 29. (2. Berg) Infanterie Regiment
+        commander_name: Major von Hymmen
+        strength: -1
+        guns: -1
+        level: MISC
+        category: INFANTRY
+      - name: 1., 2. and 3. Bataillons, 3. (Ostfriesland-Lingen) Westfalen Landwehr
+          Regiment
+        commander_name: Major Friccius
+        strength: -1
+        guns: -1
+        level: MISC
+        category: INFANTRY
+    - name: 4th Brigade
+      commander_name: von Donnersmarck
+      strength: 7307
+      guns: 0
+      level: BRIGADE
+      category: INFANTRY
+      units:
+      - name: 1., 2. and Fusilier Bataillons, 13. (1. Reserve) Infanterie Regiment
+        commander_name: ''
+        strength: -1
+        guns: -1
+        level: MISC
+        category: INFANTRY
+      - name: 1., 2. and Fusilier Bataillons, 19. (7. Reserve) Infanterie Regiment
+        commander_name: ''
+        strength: -1
+        guns: -1
+        level: MISC
+        category: INFANTRY
+      - name: 1., 2. and 3. Bataillons, 4. (Münster) Westfalen Landwehr Regiment
+        commander_name: ''
+        strength: -1
+        guns: -1
+        level: MISC
+        category: INFANTRY
+    - name: I Corps Cavalry
+      commander_name: von Röder
+      strength: 3912
+      guns: 0
+      level: DIVISION
+      category: CAVALRY
+      units:
+      - name: 1st Brigade
+        commander_name: von Treskow
+        strength: 2280
+        guns: 0
+        level: BRIGADE
+        category: CAVALRY
+        units:
+        - name: 2. (1. West Prussian) Dragoner Regiment
+          commander_name: ''
+          strength: -1
+          guns: -1
+          level: MISC
+          category: CAVALRY
+        - name: 4. (1. Schlesiche) Husaren Regiment
+          commander_name: ''
+          strength: -1
+          guns: -1
+          level: MISC
+          category: CAVALRY
+        - name: 3. Brandenburgisches Uhlanen Regiment
+          commander_name: ''
+          strength: -1
+          guns: -1
+          level: MISC
+          category: CAVALRY
+        - name: 5. (Brandenburgisches Prinz Wilhelm) Dragoner Regiment
+          commander_name: ''
+          strength: -1
+          guns: -1
+          level: MISC
+          category: CAVALRY
+      - name: 2nd Brigade
+        commander_name: von Lützow
+        strength: 1632
+        guns: 0
+        level: BRIGADE
+        category: CAVALRY
+        units:
+        - name: 1. Kurmark Landwehr Kavallerie Regiment
+          commander_name: ''
+          strength: -1
+          guns: -1
+          level: MISC
+          category: CAVALRY
+        - name: 2. Kurmark Landwehr Kavallerie Regiment
+          commander_name: ''
+          strength: -1
+          guns: -1
+          level: MISC
+          category: CAVALRY
+        - name: 6. (Lützow) Uhlanen Regiment
+          commander_name: ''
+          strength: -1
+          guns: -1
+          level: MISC
+          category: CAVALRY
+        - name: Westfalen Landwehr Kavallerie Regiment
+          commander_name: ''
+          strength: -1
+          guns: -1
+          level: MISC
+          category: CAVALRY
+    - name: I Corps Artillery
+      commander_name: Lehmann
+      strength: 1226
+      guns: 0
+      level: DIVISION
+      category: ARTILLERY
+      units:
+      - name: 3 horse batteries (2nd, 7th and 10th)
+        commander_name: ''
+        strength: -1
+        guns: -1
+        level: MISC
+        category: ARTILLERY
+      - name: 3 12pdr field batteries (only 2nd and 6th Present)
+        commander_name: ''
+        strength: -1
+        guns: -1
+        level: MISC
+        category: ARTILLERY
+      - name: 5 6pdr field batteries (1st, 3rd, 7th, 8th and 15th)
+        commander_name: ''
+        strength: -1
+        guns: -1
+        level: MISC
+        category: ARTILLERY
+      - name: 1 Howitzer battery (1st)
+        commander_name: ''
+        strength: -1
+        guns: -1
+        level: MISC
+        category: ARTILLERY
+  - name: II Corps
+    commander_name: Pirch I
+    strength: 33000
+    guns: 85
+    level: CORPS
+    category: MIXED
+    units:
+    - name: 5th Brigade
+      commander_name: Tippelskirch
+      strength: 7153
+      guns: 0
+      level: BRIGADE
+      category: INFANTRY
+      units:
+      - name: 1., 2. and Fusilier Bataillons, 2. (1. Pommern) Infanterie Regiment
+        commander_name: ''
+        strength: -1
+        guns: -1
+        level: MISC
+        category: INFANTRY
+      - name: 1., 2. and Fusilier Bataillons, 25. (Lützow Freikorps) Infanterie Regiment
+        commander_name: ''
+        strength: -1
+        guns: -1
+        level: MISC
+        category: INFANTRY
+      - name: 1., 2. and 3. Bataillons, 5. (Paderborn) Westfalen Landwehr Regiment
+        commander_name: ''
+        strength: -1
+        guns: -1
+        level: MISC
+        category: INFANTRY
+    - name: 6th Brigade
+      commander_name: von Krafft
+      strength: 6762
+      guns: 0
+      level: BRIGADE
+      category: INFANTRY
+      units:
+      - name: 1., 2. and Fusilier Bataillons, 9. (Kolberg) Infanterie Regiment
+        commander_name: ''
+        strength: -1
+        guns: -1
+        level: MISC
+        category: INFANTRY
+      - name: 1., 2. and Fusilier Bataillons, 26. (Elbe) Infanterie Regiment.
+        commander_name: von Reuss
+        strength: -1
+        guns: -1
+        level: MISC
+        category: INFANTRY
+      - name: 1., 2. and 3. Bataillons, 1. Elbe Landwehr Regiment
+        commander_name: von Bismarck
+        strength: -1
+        guns: -1
+        level: MISC
+        category: INFANTRY
+    - name: 7th Brigade
+      commander_name: von Brause
+      strength: 6503
+      guns: 0
+      level: BRIGADE
+      category: INFANTRY
+      units:
+      - name: 1., 2. and Fusilier Bataillons, 14. (2. Reserve) Infanterie Regiment
+        commander_name: ''
+        strength: -1
+        guns: -1
+        level: MISC
+        category: INFANTRY
+      - name: 1., 2. and Fusilier Bataillons, 22. (10. Reserve) Infanterie Regiment
+        commander_name: ''
+        strength: -1
+        guns: -1
+        level: MISC
+        category: INFANTRY
+      - name: 1., 2. and 3. Bataillons, 2. Elbe Landwehr Regiment
+        commander_name: ''
+        strength: -1
+        guns: -1
+        level: MISC
+        category: INFANTRY
+    - name: 8th Brigade
+      commander_name: von Bose 
+      strength: 6584
+      guns: 0
+      level: BRIGADE
+      category: INFANTRY
+      units:
+      - name: 1., 2. and Fusilier Bataillons, 21. (9. Reserve) Infanterie Regiment
+        commander_name: ''
+        strength: -1
+        guns: -1
+        level: MISC
+        category: INFANTRY
+      - name: 1., 2. and Fusilier Bataillons, 23. (11. Reserve) Infanterie Regiment
+        commander_name: von Langen.
+        strength: -1
+        guns: -1
+        level: MISC
+        category: INFANTRY
+      - name: 1., 2. and 3. Bataillons, 3. Elbe Landwehr Regiment
+        commander_name: ''
+        strength: -1
+        guns: -1
+        level: MISC
+        category: INFANTRY
+    - name: II Corps Cavalry
+      commander_name: von Wahlen-Jürgass
+      strength: 4468
+      guns: 0
+      level: DIVISION
+      category: CAVALRY
+      units:
+      - name: 1st Brigade
+        commander_name: von Thümen
+        strength: 1918
+        guns: 0
+        level: BRIGADE
+        category: CAVALRY
+        units:
+        - name: 1. (Königin) Dragoner Regiment
+          commander_name: ''
+          strength: -1
+          guns: -1
+          level: MISC
+          category: CAVALRY
+        - name: 2. (Schlesien) Uhlanen Regiment
+          commander_name: ''
+          strength: -1
+          guns: -1
+          level: MISC
+          category: CAVALRY
+        - name: 6. (Neumark) Dragoner Regimnent
+          commander_name: ''
+          strength: -1
+          guns: -1
+          level: MISC
+          category: CAVALRY
+      - name: 2nd Brigade
+        commander_name: von Sohr
+        strength: 1693
+        guns: 0
+        level: BRIGADE
+        category: CAVALRY
+        units:
+        - name: 3.(Brandenburgisches) Husaren Regiment
+          commander_name: ''
+          strength: -1
+          guns: -1
+          level: MISC
+          category: CAVALRY
+        - name: 5. (Pommern) Husaren Regiment
+          commander_name: ''
+          strength: -1
+          guns: -1
+          level: MISC
+          category: CAVALRY
+        - name: 11. (Berg und Sachsen) Husaren Regiment
+          commander_name: ''
+          strength: -1
+          guns: -1
+          level: MISC
+          category: CAVALRY
+      - name: 3rd Brigade
+        commander_name: von der Schulenburg
+        strength: 1517
+        guns: 0
+        level: BRIGADE
+        category: CAVALRY
+        units:
+        - name: 4. (Berlin) Kurmark Landwehr Kavallerie Regiment
+          commander_name: ''
+          strength: -1
+          guns: -1
+          level: MISC
+          category: CAVALRY
+        - name: 5. Kurmark Landwehr Kavallerie Regiment
+          commander_name: ''
+          strength: -1
+          guns: -1
+          level: MISC
+          category: CAVALRY
+        - name: Elbe Landwehr Kavallerie Regiment
+          commander_name: ''
+          strength: -1
+          guns: -1
+          level: MISC
+          category: CAVALRY
+    - name: II Corps Artillery
+      commander_name: Rohl
+      strength: 1382
+      guns: 0
+      level: DIVISION
+      category: ARTILLERY
+      units:
+      - name: 3 horse batteries (5th, 6th and 14th (ex-Lützow))
+        commander_name: ''
+        strength: -1
+        guns: -1
+        level: MISC
+        category: ARTILLERY
+      - name: 2 12pdr batteries (4th and 8th)
+        commander_name: ''
+        strength: -1
+        guns: -1
+        level: MISC
+        category: ARTILLERY
+      - name: 5 6pdr batteries (5th, 10th, 12th, 34th and 37th (ex-Berg))
+        commander_name: ''
+        strength: -1
+        guns: -1
+        level: MISC
+        category: ARTILLERY
+  - name: III Corps
+    commander_name: Generalleutnant Johann von Thielmann
+    strength: 25000
+    guns: 48
+    level: CORPS
+    category: MIXED
+    units:
+    - name: 9th Brigade
+      commander_name: von Borcke
+      strength: 7262
+      guns: 0
+      level: BRIGADE
+      category: INFANTRY
+      units:
+      - name: 1., 2. and Fusilier Bataillons, 8. (Leib) Infanterie Regiment
+        commander_name: ''
+        strength: -1
+        guns: -1
+        level: MISC
+        category: INFANTRY
+      - name: 1., 2. and Fusilier Bataillons, 30. (1. Russisch-Deutsche Legion) Infanterie
+          Regiment
+        commander_name: ''
+        strength: -1
+        guns: -1
+        level: MISC
+        category: INFANTRY
+      - name: 1., 2. and 3. Bataillons, 1. (Berlin) Kurmark Landwehr Regiment
+        commander_name: ''
+        strength: -1
+        guns: -1
+        level: MISC
+        category: INFANTRY
+    - name: 10th Brigade
+      commander_name: Kampfen
+      strength: 4419
+      guns: 0
+      level: BRIGADE
+      category: INFANTRY
+      units:
+      - name: 1., 2. and Fusilier Bataillons, 27. Infanterie Regiment
+        commander_name: ''
+        strength: -1
+        guns: -1
+        level: MISC
+        category: INFANTRY
+      - name: 1., 2. and 3. Bataillons, 2. Kurmark Landwehr Regiment
+        commander_name: ''
+        strength: -1
+        guns: -1
+        level: MISC
+        category: INFANTRY
+    - name: 11th Brigade
+      commander_name: von Luck
+      strength: 3980
+      guns: 0
+      level: BRIGADE
+      category: INFANTRY
+      units:
+      - name: 1., 2. and 3. Bataillons, 3. Kurmark Landwehr Regiment
+        commander_name: ''
+        strength: -1
+        guns: -1
+        level: MISC
+        category: INFANTRY
+      - name: 1., 2. and 3. Bataillons, 4. Kurmark Landwehr Regiment
+        commander_name: ''
+        strength: -1
+        guns: -1
+        level: MISC
+        category: INFANTRY
+    - name: 12th Brigade
+      commander_name: von Stülpnagel
+      strength: 6614
+      guns: 0
+      level: BRIGADE
+      category: INFANTRY
+      units:
+      - name: 1., 2. and Fusilier Bataillons, 31. (2. Russisch-Deutsche Legion) Infanterie
+          Regiment
+        commander_name: ''
+        strength: -1
+        guns: -1
+        level: MISC
+        category: INFANTRY
+      - name: 1., 2. and 3. Bataillons, 5. Kurmark Landwehr Regiment
+        commander_name: ''
+        strength: -1
+        guns: -1
+        level: MISC
+        category: INFANTRY
+      - name: 1., 2. and 3. Bataillons, 6. Kurmark Landwehr Regiment
+        commander_name: ''
+        strength: -1
+        guns: -1
+        level: MISC
+        category: INFANTRY
+    - name: III Corps Cavalry
+      commander_name: von Hobe
+      strength: 3424
+      guns: 0
+      level: DIVISION
+      category: CAVALRY
+      units:
+      - name: 1st Brigade
+        commander_name: von der Marwitz
+        strength: 1432
+        guns: 0
+        level: BRIGADE
+        category: CAVALRY
+        units:
+        - name: 7. Uhlanen Regiment
+          commander_name: ''
+          strength: -1
+          guns: -1
+          level: MISC
+          category: CAVALRY
+        - name: 8. (Russisch-Deutsche Legion) Uhlanen Regiment
+          commander_name: 'Count Dohna '
+          strength: -1
+          guns: -1
+          level: MISC
+          category: CAVALRY
+        - name: 9. Husaren Regiment
+          commander_name: ''
+          strength: -1
+          guns: -1
+          level: MISC
+          category: CAVALRY
+      - name: 2nd Brigade
+        commander_name: Count Lottum
+        strength: 1992
+        guns: 0
+        level: BRIGADE
+        category: CAVALRY
+        units:
+        - name: 5. Uhlanen Regiment
+          commander_name: ''
+          strength: -1
+          guns: -1
+          level: MISC
+          category: CAVALRY
+        - name: 7. Dragoner Regiment
+          commander_name: ''
+          strength: -1
+          guns: -1
+          level: MISC
+          category: CAVALRY
+        - name: 3. Kurmark Landwehr Kavallerie Regiment
+          commander_name: ''
+          strength: -1
+          guns: -1
+          level: MISC
+          category: CAVALRY
+        - name: 6. Kurmark Landwehr Kavallerie Regiment
+          commander_name: ''
+          strength: -1
+          guns: -1
+          level: MISC
+          category: CAVALRY
+    - name: III Corps Artillery
+      commander_name: Mohnhaupt
+      strength: 1345
+      guns: 0
+      level: DIVISION
+      category: ARTILLERY
+      units:
+      - name: 3 horse batteries (18th and 19th (ex-russo-German legion), 20th (ex-berg))
+        commander_name: ''
+        strength: -1
+        guns: -1
+        level: MISC
+        category: ARTILLERY
+      - name: 1 12pdr battery (7th)
+        commander_name: ''
+        strength: -1
+        guns: -1
+        level: MISC
+        category: ARTILLERY
+      - name: 2 6pdr batteries (18th and 35th)
+        commander_name: ''
+        strength: -1
+        guns: -1
+        level: MISC
+        category: ARTILLERY
+  - name: IV Corps
+    commander_name: General der Infanterie Friedrich Wilhelm Freiherr von Bülow
+    strength: 32000
+    guns: 132
+    level: CORPS
+    category: MIXED
+    units:
+    - name: 13th Brigade
+      commander_name: von Hake
+      strength: 6560
+      guns: 0
+      level: BRIGADE
+      category: INFANTRY
+      units:
+      - name: 1., 2. and Fusilier Bataillons, 10. (1. Schlesien) Infanterie Regiment
+        commander_name: ''
+        strength: -1
+        guns: -1
+        level: MISC
+        category: INFANTRY
+      - name: 1., 2. and 3. Bataillons, 2. Neumark Landwehr Regiment
+        commander_name: ''
+        strength: -1
+        guns: -1
+        level: MISC
+        category: INFANTRY
+      - name: 1., 2. and 3. Bataillons, 3. Neumark Landwehr Regiment
+        commander_name: ''
+        strength: -1
+        guns: -1
+        level: MISC
+        category: INFANTRY
+    - name: 14th Brigade
+      commander_name: Ryssel or Funck
+      strength: 7138
+      guns: 0
+      level: BRIGADE
+      category: INFANTRY
+      units:
+      - name: 1., 2. and Fusilier Bataillons, 11. (2. Schlesien) Infanterie Regiment
+        commander_name: ''
+        strength: -1
+        guns: -1
+        level: MISC
+        category: INFANTRY
+      - name: 1., 2. and 3. Bataillons, 1. Pommern Landwehr Regiment
+        commander_name: ''
+        strength: -1
+        guns: -1
+        level: MISC
+        category: INFANTRY
+      - name: 1., 2. and 3. Bataillons, 2. Pommern Landwehr Regiment
+        commander_name: ''
+        strength: -1
+        guns: -1
+        level: MISC
+        category: INFANTRY
+    - name: 15th Brigade
+      commander_name: von Losthin 
+      strength: 7143
+      guns: 0
+      level: BRIGADE
+      category: INFANTRY
+      units:
+      - name: 1., 2. and Fusilier Bataillons, 18. (6. Reserve) Infanterie Regiment
+        commander_name: ''
+        strength: -1
+        guns: -1
+        level: MISC
+        category: INFANTRY
+      - name: 1., 2. and 3. Bataillons, 3. Schlesien Landwehr Regiment
+        commander_name: ''
+        strength: -1
+        guns: -1
+        level: MISC
+        category: INFANTRY
+      - name: 1., 2. and 3. Bataillons, 4. Schlesien Landwehr Regiment
+        commander_name: ''
+        strength: -1
+        guns: -1
+        level: MISC
+        category: INFANTRY
+    - name: 16th Brigade
+      commander_name: von Hiller 
+      strength: 6423
+      guns: 0
+      level: BRIGADE
+      category: INFANTRY
+      units:
+      - name: 1., 2. and Fusilier Bataillons, 15. (3. Reserve) Infanterie Regiment
+        commander_name: ''
+        strength: -1
+        guns: -1
+        level: MISC
+        category: INFANTRY
+      - name: 1., 2. and 3. Bataillons, 1. Schlesien Landwehr Regiment
+        commander_name: ''
+        strength: -1
+        guns: -1
+        level: MISC
+        category: INFANTRY
+      - name: 1., 2. and 3. Bataillons, 2. Schlesien Landwehr Regiment
+        commander_name: ''
+        strength: -1
+        guns: -1
+        level: MISC
+        category: INFANTRY
+    - name: IV Corps Cavalry
+      commander_name: Prince William of Prussia
+      strength: 5586
+      guns: 0
+      level: DIVISION
+      category: CAVALRY
+      units:
+      - name: 1st Brigade
+        commander_name: von Schwerin
+        strength: 1963
+        guns: 0
+        level: BRIGADE
+        category: CAVALRY
+        units:
+        - name: 1. West Prussian Uhlanen Regiment
+          commander_name: ''
+          strength: -1
+          guns: -1
+          level: MISC
+          category: CAVALRY
+        - name: 6. (2. Schlesien) Husaren Regiment
+          commander_name: ''
+          strength: -1
+          guns: -1
+          level: MISC
+          category: CAVALRY
+        - name: 8. Husaren Regiment
+          commander_name: ''
+          strength: -1
+          guns: -1
+          level: MISC
+          category: CAVALRY
+      - name: 2nd Brigade
+        commander_name: von Watzdorff
+        strength: 1377
+        guns: 0
+        level: BRIGADE
+        category: CAVALRY
+        units:
+        - name: 10. Husaren Regiment
+          commander_name: von Ledebur
+          strength: -1
+          guns: -1
+          level: MISC
+          category: CAVALRY
+        - name: 1. Neumark Landwehr Kavallerie Regiment
+          commander_name: ''
+          strength: -1
+          guns: -1
+          level: MISC
+          category: CAVALRY
+        - name: 2. Neumark Landwehr Kavallerie Regiment
+          commander_name: ''
+          strength: -1
+          guns: -1
+          level: MISC
+          category: CAVALRY
+        - name: 1. Pommern Landwehr Kavallerie Regiment
+          commander_name: ''
+          strength: -1
+          guns: -1
+          level: MISC
+          category: CAVALRY
+        - name: 2. Pommern Landwehr Kavallerie Regiment
+          commander_name: ''
+          strength: -1
+          guns: -1
+          level: MISC
+          category: CAVALRY
+      - name: 3rd Brigade
+        commander_name: von Sydow
+        strength: 2246
+        guns: 0
+        level: BRIGADE
+        category: CAVALRY
+        units:
+        - name: 1. Schlesien Landwehr Kavallerie Regiment
+          commander_name: ''
+          strength: -1
+          guns: -1
+          level: MISC
+          category: CAVALRY
+        - name: 2. Schlesien Landwehr Kavallerie Regiment
+          commander_name: ''
+          strength: -1
+          guns: -1
+          level: MISC
+          category: CAVALRY
+        - name: 3. Schlesien Landwehr Kavallerie Regiment
+          commander_name: ''
+          strength: -1
+          guns: -1
+          level: MISC
+          category: CAVALRY
+    - name: IV Corps Artillery
+      commander_name: Braun
+      strength: 1202
+      guns: 0
+      level: DIVISION
+      category: ARTILLERY
+      units:
+      - name: 3 horse batteries (1st, 11th and 12th (Landwehr))
+        commander_name: ''
+        strength: -1
+        guns: -1
+        level: MISC
+        category: ARTILLERY
+      - name: 3 12pdr batteries (3rd, 5th and 13th)
+        commander_name: ''
+        strength: -1
+        guns: -1
+        level: MISC
+        category: ARTILLERY
+      - name: 5 6pdr batteries (2nd, 11th, 13th (Landwehr), 14th and 21st (Landwehr))
+        commander_name: ''
+        strength: -1
+        guns: -1
+        level: MISC
+        category: ARTILLERY
