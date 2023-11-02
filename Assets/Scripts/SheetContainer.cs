@@ -45,39 +45,51 @@ public class SheetContainer : MonoBehaviour
 
     }
 
+    class SideConfig
+    {
+        public Color panelColor;
+        public Color backColorRectColor;
+        public Color bottomRibbonColor;
+    }
+
     public void Generate(OobData data, int width, int height)
     {
         Clear();
 
         GameObject currentSheetObj = null;
         var sheetCap = width * height;
-        var unitList = data.CollectUnit().ToList();
+        // var unitList = data.CollectUnit().ToList();
 
         Dictionary<string, Color> corspColorMap = new();
 
-        
+        var unitIdx = -1;
 
-        for(var i=0; i<unitList.Count; i++)
+        Dictionary<string, SideConfig> sideConfigMap = new()
         {
-            if(i % sheetCap == 0)
+            {"French Army", new()
             {
-                currentSheetObj = Instantiate(sheetPrefab, transform);
-                var rt = currentSheetObj.GetComponent<RectTransform>();
-                var gridLayoutGroup = currentSheetObj.GetComponent<GridLayoutGroup>();
-                var sheetSize = gridLayoutGroup.cellSize * new Vector2(width, height);
-                rt.sizeDelta = sheetSize;
+                panelColor = Color.blue,
+                backColorRectColor = Color.white,
+                bottomRibbonColor = new(0.15f, 0.4f, 0.87f)
+            }},
+            {"British Army", new()
+            {
+                panelColor = Color.red,
+                backColorRectColor = Color.white,
+                bottomRibbonColor = new(0.15f, 0.4f, 0.87f)
+            }},
+            {"Prussian Army", new()
+            {
+                panelColor = Color.black,
+                backColorRectColor = Color.gray,
+                bottomRibbonColor = new(0.15f, 0.4f, 0.87f)
+            }}
+        };
 
-                foreach(Transform t in currentSheetObj.transform)
-                    Destroy(t.gameObject);
-            }
-
-            var unit = unitList[i];
-
+        // for(var i=0; i<unitList.Count; i++)
+        foreach(var unit in data.CollectUnit())
+        {
             Debug.Log(unit);
-
-            var counterObj = Instantiate(counterPrefab, currentSheetObj.transform);
-            var counterPrototype = counterObj.GetComponent<CounterPrototype>();
-            // counterPrototype
 
             var combat = 0;
             var movement = 0;
@@ -105,32 +117,42 @@ public class SheetContainer : MonoBehaviour
                     continue;
             }
 
-            switch(unit.GetTopName())
+            var sideConfig = sideConfigMap[unit.GetTopName()];
+
+            unitIdx += 1;
+
+            if(unitIdx % sheetCap == 0)
             {
-                case "French Army":
-                    panelColor = Color.blue;
-                    break;
-                case "British Army":
-                    panelColor = Color.red;
-                    break;
-                case "Prussian Army":
-                    panelColor = Color.black;
-                    break;
+                currentSheetObj = Instantiate(sheetPrefab, transform);
+                var rt = currentSheetObj.GetComponent<RectTransform>();
+                var gridLayoutGroup = currentSheetObj.GetComponent<GridLayoutGroup>();
+                var sheetSize = gridLayoutGroup.cellSize * new Vector2(width, height);
+                rt.sizeDelta = sheetSize;
+
+                foreach(Transform t in currentSheetObj.transform)
+                    Destroy(t.gameObject);
             }
+
+            var counterObj = Instantiate(counterPrefab, currentSheetObj.transform);
+            var counterPrototype = counterObj.GetComponent<CounterPrototype>();
 
             counterPrototype.SetBottomLeftText(combat.ToString());
             counterPrototype.SetBottomRightText(movement.ToString());
             counterPrototype.SetLeftText(SummaryName(unit.Name));
             counterPrototype.SetTopText(SummaryCommanderName(unit.CommanderName));
             counterPrototype.SetIcon(icon);
-            counterPrototype.SetPanelColor(panelColor);
+            counterPrototype.SetPanelColor(sideConfig.panelColor);
+            counterPrototype.SetBackColorRect(sideConfig.backColorRectColor);
+            counterPrototype.SetBottomRibbonColor(sideConfig.bottomRibbonColor);
 
             var corpsName = unit.GetCorpsName();
+            Debug.Log(corpsName);
             if(!corspColorMap.TryGetValue(corpsName, out var corposColor))
-                corposColor = corspColorMap[corpsName] = new Color(Random.Range(0, 1), Random.Range(0, 1), Random.Range(0, 1));
+                corposColor = corspColorMap[corpsName] = RandomDarkColor();
             counterPrototype.SetTopRibbonColor(corposColor);
-
         }
+
+        static Color RandomDarkColor() => new Color(Random.Range(0f, 0.5f), Random.Range(0f, 0.5f), Random.Range(0f, 0.5f));
 
         // Force content size fitter update hack: https://forum.unity.com/threads/content-size-fitter-refresh-problem.498536/
         Canvas.ForceUpdateCanvases();
