@@ -1,9 +1,43 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
+using Jint;
+using Jint.Runtime.Interop;
 using UnityEngine;
 using UnityEngine.UI;
+
+/*
+public class CounterSetupContext
+{
+    Dictionary<string, Color> nameColorMap = new();
+
+    public Color SampleColor(string name)
+    {
+        if(!nameColorMap.TryGetValue(name, out var color))
+            color = nameColorMap[name] = RandomDarkColor();
+        return color;
+
+    }
+}
+*/
+
+/*
+public class SheetContainerProxy
+{
+    SheetContainer sheetContainer;
+
+    public SheetContainerProxy(SheetContainer sheetContainer)
+    {
+        this.sheetContainer = sheetContainer;
+    }
+
+    public string SummaryName(string s) => SheetContainer.SummaryName(s);
+    public string SummaryCommanderName(string s) => SheetContainer.SummaryCommanderName(s);
+    public Sprite LoadIcon(string name) => SheetContainer.LoadIcon(name);
+}
+*/
 
 public class SheetContainer : MonoBehaviour
 {
@@ -14,6 +48,9 @@ public class SheetContainer : MonoBehaviour
     VerticalLayoutGroup scrollableContentVerticalLayoutGroup;
 
     static Dictionary<string, Sprite> spriteLoadCache = new();
+
+    // Engine engine = new();
+    Engine engine = new(cfg => cfg.AllowClr());
 
     public static Sprite LoadIcon(string name)
     {
@@ -26,6 +63,12 @@ public class SheetContainer : MonoBehaviour
     void Start()
     {
         Clear();
+
+        engine.SetValue("log", new Action<object>(msg => Debug.Log(msg)));
+        engine.SetValue("Color", TypeReference.CreateTypeReference(engine, typeof(Color)));
+        engine.SetValue("UnitCategory", TypeReference.CreateTypeReference(engine, typeof(UnitCategory)));
+        engine.SetValue("ctx", TypeReference.CreateTypeReference(engine, typeof(SheetContainer)));
+        // engine.SetValue("CounterPrototype", TypeReference.CreateTypeReference(engine, typeof(CounterPrototype)));
 
         scrollableContentVerticalLayoutGroup = scrollableContent.GetComponent<VerticalLayoutGroup>();
     }
@@ -52,7 +95,7 @@ public class SheetContainer : MonoBehaviour
         public Color bottomRibbonColor;
     }
 
-    public void Generate(OobData data, int width, int height)
+    public void Generate(OobData data, string runtimeScript, int width, int height)
     {
         Clear();
 
@@ -60,10 +103,23 @@ public class SheetContainer : MonoBehaviour
         var sheetCap = width * height;
         // var unitList = data.CollectUnit().ToList();
 
-        Dictionary<string, Color> corspColorMap = new();
+        Dictionary<string, Color> nameColorMap = new();
+
+        Func<string, Color> colorSampler = (name) =>
+        {
+            if(!nameColorMap.TryGetValue(name, out var color))
+                color = nameColorMap[name] = RandomDarkColor();
+            return color;
+        };
+        
+        engine.Execute(runtimeScript);
+        engine.SetValue("colorSampler", colorSampler);
 
         var unitIdx = -1;
 
+        // TODO: Move follwing into runtime script
+
+        /*
         Dictionary<string, SideConfig> sideConfigMap = new()
         {
             {"French Army", new()
@@ -85,15 +141,54 @@ public class SheetContainer : MonoBehaviour
                 bottomRibbonColor = new(0.15f, 0.4f, 0.87f)
             }}
         };
+        */
+
+        // End runtime scripting
 
         // for(var i=0; i<unitList.Count; i++)
         foreach(var unit in data.CollectUnit())
         {
             Debug.Log(unit);
 
+            switch(unit.Category)
+            {
+                case UnitCategory.INFANTRY:
+                case UnitCategory.CAVALRY:
+                case UnitCategory.ARTILLERY:
+                    break;
+                default:
+                    continue;
+            }
+
+            unitIdx += 1;
+
+            if(unitIdx % sheetCap == 0)
+            {
+                currentSheetObj = Instantiate(sheetPrefab, transform);
+                var rt = currentSheetObj.GetComponent<RectTransform>();
+                var gridLayoutGroup = currentSheetObj.GetComponent<GridLayoutGroup>();
+                var sheetSize = gridLayoutGroup.cellSize * new Vector2(width, height);
+                rt.sizeDelta = sheetSize;
+
+                foreach(Transform t in currentSheetObj.transform)
+                    Destroy(t.gameObject);
+            }
+
+            var counterObj = Instantiate(counterPrefab, currentSheetObj.transform);
+            var counterPrototype = counterObj.GetComponent<CounterPrototype>();
+
+            engine.SetValue("unit", unit);
+            engine.SetValue("counterPrototype", new CounterPrototypeProxy(counterPrototype));
+            // engine.SetValue("test", "43");
+
+            engine.Execute("setupCounter(unit, counterPrototype, colorSampler)");
+
+            // TODO: Move follwing into runtime script
+
+            /*
             var combat = 0;
             var movement = 0;
-            Sprite icon;
+            Sprite icon = null;
             Color panelColor = Color.white;
             // Test Scripts (Fixed Pipeline)
             switch(unit.Category)
@@ -113,28 +208,9 @@ public class SheetContainer : MonoBehaviour
                     movement = 3;
                     icon = LoadIcon("artillery_nato");
                     break;
-                default:
-                    continue;
             }
 
             var sideConfig = sideConfigMap[unit.GetTopName()];
-
-            unitIdx += 1;
-
-            if(unitIdx % sheetCap == 0)
-            {
-                currentSheetObj = Instantiate(sheetPrefab, transform);
-                var rt = currentSheetObj.GetComponent<RectTransform>();
-                var gridLayoutGroup = currentSheetObj.GetComponent<GridLayoutGroup>();
-                var sheetSize = gridLayoutGroup.cellSize * new Vector2(width, height);
-                rt.sizeDelta = sheetSize;
-
-                foreach(Transform t in currentSheetObj.transform)
-                    Destroy(t.gameObject);
-            }
-
-            var counterObj = Instantiate(counterPrefab, currentSheetObj.transform);
-            var counterPrototype = counterObj.GetComponent<CounterPrototype>();
 
             counterPrototype.SetBottomLeftText(combat.ToString());
             counterPrototype.SetBottomRightText(movement.ToString());
@@ -146,13 +222,15 @@ public class SheetContainer : MonoBehaviour
             counterPrototype.SetBottomRibbonColor(sideConfig.bottomRibbonColor);
 
             var corpsName = unit.GetCorpsName();
-            Debug.Log(corpsName);
-            if(!corspColorMap.TryGetValue(corpsName, out var corposColor))
-                corposColor = corspColorMap[corpsName] = RandomDarkColor();
-            counterPrototype.SetTopRibbonColor(corposColor);
-        }
+            // Debug.Log(corpsName);
 
-        static Color RandomDarkColor() => new Color(Random.Range(0f, 0.5f), Random.Range(0f, 0.5f), Random.Range(0f, 0.5f));
+            
+            // if(!nameColorMap.TryGetValue(corpsName, out var corposColor))
+            //     corposColor = nameColorMap[corpsName] = RandomDarkColor();
+            var corposColor = colorSampler(corpsName);
+            counterPrototype.SetTopRibbonColor(corposColor);
+            */
+        }
 
         // Force content size fitter update hack: https://forum.unity.com/threads/content-size-fitter-refresh-problem.498536/
         Canvas.ForceUpdateCanvases();
@@ -160,12 +238,14 @@ public class SheetContainer : MonoBehaviour
         scrollableContentVerticalLayoutGroup.enabled = true;
     }
 
+    static Color RandomDarkColor() => new Color(UnityEngine.Random.Range(0f, 0.5f), UnityEngine.Random.Range(0f, 0.5f), UnityEngine.Random.Range(0f, 0.5f));
+
     public static string SummaryCommanderName(string name)
     {
         return name.Trim().Split(" ")[^1];
     }
 
-    static string SummaryName(string name)
+    public static string SummaryName(string name)
     {
         return string.Join("\n", name.Split(" ").Select(SummaryWord));
     }

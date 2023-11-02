@@ -74,3 +74,28 @@ public class CounterPrototype : MonoBehaviour
         
     }
 }
+
+public class CounterPrototypeProxy
+{
+    public CounterPrototype counterPrototype;
+
+    public CounterPrototypeProxy(CounterPrototype counterPrototype)
+    {
+        this.counterPrototype = counterPrototype;
+    }
+
+    public void SetBottomLeftText(string s) => counterPrototype.SetBottomLeftText(s);
+    public void SetBottomMiddleText(string s) => counterPrototype.SetBottomMiddleText(s);
+    public void SetBottomRightText(string s) => counterPrototype.SetBottomRightText(s);
+    public void SetTopText(string s) => counterPrototype.SetTopText(s);
+    public void SetLeftText(string s) => counterPrototype.SetLeftText(s);
+    public void SetRightText(string s) => counterPrototype.SetRightText(s);
+    public void SetBackColorRect(Color color) => counterPrototype.SetBackColorRect(color);
+
+    public void SetIcon(Sprite sprite) => counterPrototype.SetIcon(sprite);
+
+    public void SetTopRibbonColor(Color color) => counterPrototype.SetTopRibbonColor(color);
+
+    public void SetBottomRibbonColor(Color color) => counterPrototype.SetBottomRibbonColor(color);
+    public void SetPanelColor(Color color) => counterPrototype.SetPanelColor(color);
+}

@@ -4,6 +4,7 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
 using System;
+using System.Linq;
 
 public class GameManager : MonoBehaviour
 {
@@ -11,6 +12,7 @@ public class GameManager : MonoBehaviour
     public SheetContainer sheetContainer;
     public TMP_InputField widthSource;
     public TMP_InputField heightSource;
+    public TMP_InputField runtimeScriptSource;
 
     public Transform screenshotBench;
     public Camera screenshotCamera;
@@ -30,13 +32,29 @@ public class GameManager : MonoBehaviour
     public void Generate()
     {
         var oobData = OobData.Load(oobSource.text);
+        var runtimeScript = runtimeScriptSource.text;
         var width = int.Parse(widthSource.text);
         var height = int.Parse(heightSource.text);
 
-        sheetContainer.Generate(oobData, width, height);
+        sheetContainer.Generate(oobData, runtimeScript, width, height);
     }
 
     public void ExportFirst()
+    {
+        foreach(var counterByte in IterExport(true)) // TODO: refactor as  `using`
+        {
+            FileExporter.Export(counterByte, "desc", "counter.png", "png");
+        }
+    }
+
+    public void ExportArchive()
+    {
+        var nameDataIter = IterExport(false).Select((bytes, i) => ($"{i}.png", bytes));
+        var archiveBytes = FileExporter.Archive(nameDataIter);
+        FileExporter.Export(archiveBytes, "desc", "counters.zip", "zip");
+    }
+
+    public IEnumerable<byte[]> IterExport(bool firstCounter)
     {
         Transform firstSheetTransform = null;
         foreach(Transform sheetTransform in sheetContainer.transform)
@@ -48,7 +66,7 @@ public class GameManager : MonoBehaviour
         if(firstSheetTransform == null)
         {
             Debug.Log("There should be at least one sheet to download");
-            return;
+            yield break;
         }
 
         var cellSize = firstSheetTransform.GetComponent<GridLayoutGroup>().cellSize;
@@ -116,31 +134,24 @@ public class GameManager : MonoBehaviour
                 byte[] bytes = screenshot.EncodeToPNG();
                 
                 // System.IO.File.WriteAllBytes($"test.png", bytes);
-                FileExporter.Export(bytes, "desc", "test.png", "png");
+                // FileExporter.Export(bytes, "desc", "test.png", "png");
                 // break;
+                yield return bytes;
 
                 counterTransform.SetParent(sheetTransform);
                 counterTransform.localScale = Vector3.one;
                 counterTransform.SetSiblingIndex(idxOri);
 
-                break;
+                if(firstCounter)
+                    break;
             }
-            break;
+
+            if(firstCounter)
+                break;
         }
 
         screenshotCamera.targetTexture = null;
         RenderTexture.active = null;
         rt.Release();
-    }
-
-    void ScreenshotCounter(Transform sheetTransform, Transform counterTransform, int width, int height)
-    {
-        var idxOri = counterTransform.GetSiblingIndex();
-        counterTransform.SetParent(screenshotBench);
-
-        
-
-        counterTransform.SetParent(sheetTransform);
-        counterTransform.SetSiblingIndex(idxOri);
     }
 }

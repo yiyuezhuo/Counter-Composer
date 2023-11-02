@@ -1,0 +1,61 @@
+
+var sideConfigMap = 
+{
+    "French Army": {
+        "panelColor": Color.blue,
+        "backColorRectColor": Color.white,
+        "bottomRibbonColor": new Color(0.15, 0.4, 0.87)
+    },
+    "British Army": {
+        "panelColor": Color.red,
+        "backColorRectColor": Color.white,
+        "bottomRibbonColor": new Color(0.15, 0.4, 0.87)
+    },
+    "Prussian Army": {
+        "panelColor": Color.black,
+        "backColorRectColor": Color.gray,
+        "bottomRibbonColor": new Color(0.15, 0.4, 0.87)
+    }
+}
+
+function setupCounter(unit, counterPrototype, colorSampler)
+{
+    var combat = 0;
+    var movement = 0;
+
+    switch(unit.Category)
+    {
+        case UnitCategory.INFANTRY:
+            combat = Math.ceil(unit.Strength / 100);
+            movement = 4;
+            // icon = ctx.LoadIcon("infantry_nato");
+            icon = ctx.LoadIcon("line_infantry");
+            break;
+        case UnitCategory.CAVALRY:
+            combat = Math.ceil(unit.Strength / 100);
+            movement = 6;
+            // icon = ctx.LoadIcon("cavalry_nato");
+            icon = ctx.LoadIcon("dragoon");
+            break;
+        case UnitCategory.ARTILLERY:
+            combat = Math.ceil(unit.Strength / 20);
+            movement = 3;
+            // icon = ctx.LoadIcon("artillery_nato");
+            icon = ctx.LoadIcon("artillery_napoleonic");
+            break;
+    }
+
+    var sideConfig = sideConfigMap[unit.GetTopName()];
+
+    counterPrototype.SetBottomLeftText(combat.toString());
+    counterPrototype.SetBottomRightText(movement.toString());
+    counterPrototype.SetLeftText(ctx.SummaryName(unit.Name));
+    counterPrototype.SetTopText(ctx.SummaryCommanderName(unit.CommanderName));
+    counterPrototype.SetIcon(icon);
+    counterPrototype.SetPanelColor(sideConfig.panelColor);
+    counterPrototype.SetBackColorRect(sideConfig.backColorRectColor);
+    counterPrototype.SetBottomRibbonColor(sideConfig.bottomRibbonColor);
+
+    var corpsName = unit.GetCorpsName();
+    counterPrototype.SetTopRibbonColor(colorSampler(corpsName));
+}
